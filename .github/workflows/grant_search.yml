@@ -2,31 +2,37 @@ name: 🔬 Automated Grant Search v2
 
 on:
   schedule:
-    - cron: '0 8 * * 1'   # Every Monday 8:00 AM UTC
-  workflow_dispatch:        # Manual trigger from Actions tab
+    - cron: '0 8 * * 1'
+  workflow_dispatch:
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
   pages: write
   id-token: write
 
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
 
-  # ── JOB 1: Search + Build ──────────────────────────────────────────────────
   search-and-build:
     runs-on: ubuntu-latest
     name: Search Grants + Build Dashboard
 
     steps:
-      - name: ⬇️ Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: 🐍 Set Up Python 3.11
+      - name: Set Up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 🔬 Run Grant Search Engine
+      - name: Run Grant Search Engine
         run: |
           echo "=================================================="
           echo "  GRANT SEARCH ENGINE v2"
@@ -34,10 +40,10 @@ jobs:
           echo "=================================================="
           python3 search_grants.py
 
-      - name: 🏗️ Build HTML Dashboard
+      - name: Build HTML Dashboard
         run: python3 build_dashboard.py
 
-      - name: 📊 Print Full Summary
+      - name: Print Deadline Summary
         run: |
           python3 << 'PYEOF'
           import json, datetime
@@ -49,87 +55,74 @@ jobs:
           today  = datetime.date.today()
 
           print(f"\n{'='*65}")
-          print(f"  GRANT SEARCH SUMMARY — {today.strftime('%B %d, %Y')}")
+          print(f"  GRANT SEARCH SUMMARY - {today.strftime('%B %d, %Y')}")
           print(f"{'='*65}")
           print(f"  Total grants indexed     : {data['total']}")
-          print(f"  Unrestricted (F-1 ✓)    : {data['unrestricted_count']}")
+          print(f"  Unrestricted (F-1 OK)    : {data['unrestricted_count']}")
           print(f"  Unspecified (verify)     : {data['unspecified_count']}")
-          print(f"  High confidence (≥70%)   : {data['high_confidence']}")
-          print(f"  NIH query clusters used  : {len(data['nih_query_clusters'])}")
-          print(f"  Grants.gov terms used    : {len(data['grantsgov_terms'])}")
+          print(f"  High confidence (>=70%)  : {data['high_confidence']}")
 
-          # Sort by days
           def days(g):
               return g.get("days_until_deadline", 9999)
 
-          print(f"\n{'─'*65}")
-          print("  🚨 URGENT — Due within 45 days (apply NOW):")
-          print(f"{'─'*65}")
+          print(f"\n  URGENT - Due within 45 days:")
           urgent = [g for g in grants if 0 < days(g) <= 45]
           if urgent:
               for g in sorted(urgent, key=days):
-                  mark = "✓" if g["citizenship"]=="unrestricted" else "◎"
-                  print(f"  [{days(g):>3}d] {mark} {g['title']}")
+                  mark = "OK" if g["citizenship"] == "unrestricted" else "VERIFY"
+                  print(f"  [{days(g):>3}d] [{mark}] {g['title']}")
                   print(f"         Deadline : {g['deadline_display']}")
                   print(f"         Amount   : {g['amount_display']}")
-                  print(f"         Conf.    : {g.get('confidence',0)}%")
                   print(f"         URL      : {g['url']}")
-                  print()
           else:
-              print("  None in urgent window.\n")
+              print("  None in urgent window.")
 
-          print(f"{'─'*65}")
-          print("  ⚠️  SOON — Due within 90 days:")
-          print(f"{'─'*65}")
+          print(f"\n  SOON - Due within 90 days:")
           soon = [g for g in grants if 45 < days(g) <= 90]
           for g in sorted(soon, key=days):
-              mark = "✓" if g["citizenship"]=="unrestricted" else "◎"
-              print(f"  [{days(g):>3}d] {mark} {g['title']} | {g['deadline_display']}")
+              mark = "OK" if g["citizenship"] == "unrestricted" else "VERIFY"
+              print(f"  [{days(g):>3}d] [{mark}] {g['title']} | {g['deadline_display']}")
 
-          print(f"\n{'─'*65}")
-          print("  📅 UPCOMING — Due within 180 days:")
-          print(f"{'─'*65}")
+          print(f"\n  UPCOMING - Due within 180 days:")
           upcoming = [g for g in grants if 90 < days(g) <= 180]
           for g in sorted(upcoming, key=days):
-              mark = "✓" if g["citizenship"]=="unrestricted" else "◎"
-              print(f"  [{days(g):>3}d] {mark} {g['title']} | {g['deadline_display']}")
+              mark = "OK" if g["citizenship"] == "unrestricted" else "VERIFY"
+              print(f"  [{days(g):>3}d] [{mark}] {g['title']} | {g['deadline_display']}")
 
-          print(f"\n{'─'*65}")
-          print("  🔭 FUTURE — Due after 180 days / Rolling:")
-          print(f"{'─'*65}")
+          print(f"\n  FUTURE - Rolling or beyond 180 days:")
           future = [g for g in grants if days(g) > 180]
-          for g in sorted(future, key=lambda g: -g.get("confidence",0)):
-              mark = "✓" if g["citizenship"]=="unrestricted" else "◎"
-              conf = g.get('confidence',0)
-              print(f"  [{conf:>3}%] {mark} {g['title']} | {g['deadline_display']}")
+          for g in sorted(future, key=lambda g: -g.get("confidence", 0)):
+              mark = "OK" if g["citizenship"] == "unrestricted" else "VERIFY"
+              conf = g.get('confidence', 0)
+              print(f"  [{conf:>3}%] [{mark}] {g['title']}")
 
-          print(f"\n{'='*65}")
-          print(f"  Legend: ✓ = Unrestricted (F-1 eligible confirmed)")
-          print(f"          ◎ = Unspecified (verify citizenship with funder)")
-          print(f"\n  Dashboard: https://YOUR_USERNAME.github.io/vikaas-grant-search")
+          print(f"\n  Legend: [OK] = F-1 eligible confirmed")
+          print(f"          [VERIFY] = citizenship unspecified - check with funder")
           print(f"{'='*65}\n")
           PYEOF
 
-      - name: 🕒 Stamp Run Timestamp
+      - name: Stamp Run Timestamp
         run: |
-          echo "Last automated run: $(date -u '+%A %B %d, %Y at %H:%M UTC')" > last_run.txt
-          echo "Grants indexed: $(python3 -c "import json; d=json.load(open('grants_results.json')); print(d['total'])")" >> last_run.txt
-          echo "NIH query clusters: 9" >> last_run.txt
-          echo "Grants.gov search terms: 12" >> last_run.txt
+          echo "Last run: $(date -u '+%A %B %d, %Y at %H:%M UTC')" > last_run.txt
+          python3 -c "
+          import json
+          d = json.load(open('grants_results.json'))
+          print(f\"Grants indexed: {d['total']}\")
+          print(f\"Unrestricted (F-1 OK): {d['unrestricted_count']}\")
+          " >> last_run.txt
 
-      - name: 💾 Commit Updated Files
+      - name: Commit Updated Files
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Grant search auto-update — $(date -u '+%Y-%m-%d')"
+          commit_message: "Auto grant search update"
           file_pattern: "grants_results.json index.html last_run.txt"
         continue-on-error: true
 
-      - name: 📄 Upload Pages Artifact
+      - name: Upload Pages Artifact
         uses: actions/upload-pages-artifact@v3
         with:
           path: '.'
 
-  # ── JOB 2: Deploy to GitHub Pages ─────────────────────────────────────────
   deploy:
     needs: search-and-build
     runs-on: ubuntu-latest
@@ -139,6 +132,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
 
     steps:
-      - name: 🚀 Deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
