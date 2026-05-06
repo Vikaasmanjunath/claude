@@ -1,4 +1,3 @@
-Last automated run: Wednesday May 06, 2026 at 00:00 UTC
+Last run: Wednesday May 06, 2026 at 00:06 UTC
 Grants indexed: 22
-NIH query clusters: 9
-Grants.gov search terms: 12
+Unrestricted (F-1 OK): 14
