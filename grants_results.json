@@ -1,9 +1,9 @@
 {
-  "generated": "May 05, 2026 at 11:10 PM UTC",
-  "search_date": "2026-05-05",
-  "total": 17,
+  "generated": "May 06, 2026 at 12:00 AM UTC",
+  "search_date": "2026-05-06",
+  "total": 22,
   "unrestricted_count": 14,
-  "unspecified_count": 3,
+  "unspecified_count": 8,
   "high_confidence": 11,
   "nih_query_clusters": [
     "cardiovascular exercise physical activity vascular",
@@ -168,7 +168,7 @@
       "strategic_note": "Frame your RCT data: CAT and SIT exercise interventions reduce cardiovascular risk in adults with intellectual disabilities. Lead with the vascular outcomes (PWV reduction, FMD improvement) \u2014 that's what AHA reviewers want to see.",
       "source": "curated",
       "confidence": 92,
-      "days_until_deadline": 121,
+      "days_until_deadline": 120,
       "deadline_urgency": "normal"
     },
     {
@@ -223,7 +223,7 @@
       "strategic_note": "Apply SIMULTANEOUSLY to the standard track AND the Autism Speaks co-funded track (same portal, same deadline, separate review panel). AHA explicitly prohibits AI-generated content in proposals \u2014 write everything yourself.",
       "source": "curated",
       "confidence": 88,
-      "days_until_deadline": 121,
+      "days_until_deadline": 120,
       "deadline_urgency": "normal"
     },
     {
@@ -276,7 +276,7 @@
       "strategic_note": "Also submit to the Gisolfi Memorial Fund (same portal, same deadline, different fund). Two applications, two chances, one submission window.",
       "source": "curated",
       "confidence": 85,
-      "days_until_deadline": 209,
+      "days_until_deadline": 208,
       "deadline_urgency": "normal"
     },
     {
@@ -328,7 +328,7 @@
       "strategic_note": "ACTION ITEM #1: Email Dr. Oviedo and Dr. Agiovlasitis TODAY asking whether they hold an active NIH grant. If yes, this is your most immediate funding opportunity. The supplement application takes 2\u20133 weeks to prepare.",
       "source": "curated",
       "confidence": 83,
-      "days_until_deadline": 102,
+      "days_until_deadline": 101,
       "deadline_urgency": "normal"
     },
     {
@@ -380,7 +380,7 @@
       "strategic_note": "Also register and present at MIEC 2026 (msinbre.org/miec26) \u2014 INBRE leadership who control funding are at this conference. Visibility = access.",
       "source": "curated",
       "confidence": 79,
-      "days_until_deadline": 119,
+      "days_until_deadline": 118,
       "deadline_urgency": "normal"
     },
     {
@@ -428,7 +428,7 @@
       "strategic_note": "Small award, high probability. Excellent for your CV and building visibility in the exercise physiology community early in your PhD.",
       "source": "curated",
       "confidence": 77,
-      "days_until_deadline": 119,
+      "days_until_deadline": 118,
       "deadline_urgency": "normal"
     },
     {
@@ -476,7 +476,7 @@
       "strategic_note": "Apply to this alongside the main ACSM Doctoral Grant \u2014 same submission portal and window. Costs you 30 extra minutes to adapt the proposal framing.",
       "source": "curated",
       "confidence": 76,
-      "days_until_deadline": 209,
+      "days_until_deadline": 208,
       "deadline_urgency": "normal"
     },
     {
@@ -526,7 +526,7 @@
       "strategic_note": "Frame your research explicitly around mechanisms of vascular aging and how exercise interventions slow age-related cardiovascular decline. AFAR reviewers respond to aging biology framing.",
       "source": "curated",
       "confidence": 74,
-      "days_until_deadline": 313,
+      "days_until_deadline": 312,
       "deadline_urgency": "normal"
     },
     {
@@ -577,7 +577,7 @@
       "strategic_note": "Two rounds per year: October 1 (fall) and March 15 (spring). Apply to fall round now. Join MSU Sigma Xi chapter in fall semester to unlock $5,000 cap for the March spring round.",
       "source": "curated",
       "confidence": 72,
-      "days_until_deadline": 149,
+      "days_until_deadline": 148,
       "deadline_urgency": "normal"
     },
     {
@@ -625,7 +625,7 @@
       "strategic_note": "Join MSU Sigma Xi chapter in fall semester 2026 so you're a member by the March 15, 2027 deadline \u2014 unlocks the $5K cap vs $1K non-member limit.",
       "source": "curated",
       "confidence": 72,
-      "days_until_deadline": 314,
+      "days_until_deadline": 313,
       "deadline_urgency": "normal"
     },
     {
@@ -675,7 +675,7 @@
       "strategic_note": "Verify exact 2026 cycle dates at diabeteseducator.org \u2014 amounts and deadlines shift annually. Confirm citizenship policy by email before applying.",
       "source": "curated",
       "confidence": 71,
-      "days_until_deadline": 88,
+      "days_until_deadline": 87,
       "deadline_urgency": "soon"
     },
     {
@@ -725,7 +725,7 @@
       "strategic_note": "Verify citizenship eligibility directly with the SVS Foundation before investing time in the application \u2014 email their grants office.",
       "source": "curated",
       "confidence": 69,
-      "days_until_deadline": 163,
+      "days_until_deadline": 162,
       "deadline_urgency": "normal"
     },
     {
@@ -775,7 +775,7 @@
       "strategic_note": "CHECK MSU ELIGIBILITY NOW at hhmi.org/programs/eligible-institutions. If MSU is not listed, ask your department chair to contact HHMI about institutional eligibility. Apply in your 2nd year (fall 2027 competition).",
       "source": "curated",
       "confidence": 68,
-      "days_until_deadline": 224,
+      "days_until_deadline": 223,
       "deadline_urgency": "normal"
     },
     {
@@ -824,7 +824,7 @@
       "strategic_note": "Email APS (careers@physiology.org) and ask explicitly: 'Are international PhD students on F-1 visas eligible for the Porter Fellowship?' before investing time in the application.",
       "source": "curated",
       "confidence": 65,
-      "days_until_deadline": 255,
+      "days_until_deadline": 254,
       "deadline_urgency": "normal"
     },
     {
@@ -871,7 +871,7 @@
       "strategic_note": "Register immediately. Bring business cards. Introduce yourself to Dr. Alex Flynt (INBRE program director at USM) and explain your research \u2014 this directly opens doors to INBRE funding.",
       "source": "curated",
       "confidence": 62,
-      "days_until_deadline": 15,
+      "days_until_deadline": 14,
       "deadline_urgency": "urgent"
     },
     {
@@ -922,7 +922,7 @@
       "strategic_note": "2026 cycle closed. Apply February 2027. Add a sex/gender differences angle to your vascular research proposal now \u2014 even a secondary analysis of sex differences in PWV or FMD response strengthens this application significantly.",
       "source": "curated",
       "confidence": 61,
-      "days_until_deadline": 333,
+      "days_until_deadline": 332,
       "deadline_urgency": "normal"
     },
     {
@@ -970,8 +970,193 @@
       "strategic_note": "You already have the 2026 application as a template. Update with: new poster, evaluator role, Football internship. 30-minute refresh of existing materials.",
       "source": "curated",
       "confidence": 58,
-      "days_until_deadline": 255,
+      "days_until_deadline": 254,
       "deadline_urgency": "normal"
+    },
+    {
+      "id": "NIH-1R21AG100775-01",
+      "title": "Lysosome-Golgi Contact Sites as Regulators of Senescence-Associated Inflammation",
+      "org": "NIH \u2014 National Institute on Aging",
+      "org_type": "Federal",
+      "org_website": "reporter.nih.gov",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level \u2014 no citizenship restriction for the supported graduate student. Confirm per activity code.",
+      "citizenship_source": "NIH Reporter live result \u2014 check specific FOA",
+      "amount_display": "Varies by mechanism",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies by mechanism",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov for active FOA deadline",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Project: 'Lysosome-Golgi Contact Sites as Regulators of Senescence-Associated Inflammation'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.",
+      "requirements": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor \u2014 most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R21AG100775-01",
+      "strategic_note": "NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 23,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R21CA309305-01",
+      "title": "A pilot adaptive trial of FITtrack chatbot, nurse navigator, and peer navigator to promote FIT screening among rural residents.",
+      "org": "NIH \u2014 National Cancer Institute",
+      "org_type": "Federal",
+      "org_website": "reporter.nih.gov",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level \u2014 no citizenship restriction for the supported graduate student. Confirm per activity code.",
+      "citizenship_source": "NIH Reporter live result \u2014 check specific FOA",
+      "amount_display": "Varies by mechanism",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies by mechanism",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov for active FOA deadline",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Project: 'A pilot adaptive trial of FITtrack chatbot, nurse navigator, and peer navigator to promote FIT screening among rural residents.'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.",
+      "requirements": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor \u2014 most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R21CA309305-01",
+      "strategic_note": "NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 18,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R15GM163254-01",
+      "title": "Comparative Study on Human Beta Defensin Type 2 and 3 Interaction with Model Bacterial Lipid Membranes",
+      "org": "NIH \u2014 National Institute of General Medical Sciences",
+      "org_type": "Federal",
+      "org_website": "reporter.nih.gov",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level \u2014 no citizenship restriction for the supported graduate student. Confirm per activity code.",
+      "citizenship_source": "NIH Reporter live result \u2014 check specific FOA",
+      "amount_display": "Varies by mechanism",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies by mechanism",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov for active FOA deadline",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Project: 'Comparative Study on Human Beta Defensin Type 2 and 3 Interaction with Model Bacterial Lipid Membranes'. Activity code: R15. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.",
+      "requirements": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor \u2014 most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R15GM163254-01",
+      "strategic_note": "NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 18,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R21MH140170-01A1",
+      "title": "Mitochondrial Signaling, Stress, and Sleep in Children with Internalizing Disorders",
+      "org": "NIH \u2014 National Institute of Mental Health",
+      "org_type": "Federal",
+      "org_website": "reporter.nih.gov",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level \u2014 no citizenship restriction for the supported graduate student. Confirm per activity code.",
+      "citizenship_source": "NIH Reporter live result \u2014 check specific FOA",
+      "amount_display": "Varies by mechanism",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies by mechanism",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov for active FOA deadline",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Project: 'Mitochondrial Signaling, Stress, and Sleep in Children with Internalizing Disorders'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.",
+      "requirements": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor \u2014 most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R21MH140170-01A1",
+      "strategic_note": "NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 18,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R21AI190485-01A1",
+      "title": "Malaria importation and the role of agriculture in local transmission in Eswatini (MIRA)",
+      "org": "NIH \u2014 National Institute of Allergy and Infectious Diseases",
+      "org_type": "Federal",
+      "org_website": "reporter.nih.gov",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level \u2014 no citizenship restriction for the supported graduate student. Confirm per activity code.",
+      "citizenship_source": "NIH Reporter live result \u2014 check specific FOA",
+      "amount_display": "Varies by mechanism",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies by mechanism",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov for active FOA deadline",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Project: 'Malaria importation and the role of agriculture in local transmission in Eswatini (MIRA)'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.",
+      "requirements": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor \u2014 most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R21AI190485-01A1",
+      "strategic_note": "NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 18,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
     }
   ]
 }
