@@ -111,8 +111,13 @@ def card(g, idx):
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">{esc(g.get('fit_rationale',''))}</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list">{chr(10).join(f'<li>{esc(item)}</li>' for item in g.get('what_they_expect', g.get('requirements', [])))}</ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">{esc(g.get('how_you_fit', g.get('fit_rationale', '')))}</p>
   </div>
 
   <div class="card-field">
@@ -554,6 +559,29 @@ details[open] summary::before {{ content: "−"; }}
   .wrap {{ padding: 0 20px 60px; }}
   .tl-row {{ grid-template-columns: 160px 1fr 50px; }}
   .card-meta {{ grid-template-columns: 1fr 1fr; }}
+}}
+
+.expect-list {{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}}
+
+.expect-list li {{
+  font-size: 13px;
+  color: #333;
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.55;
+}}
+
+.expect-list li::before {{
+  content: "\2013";
+  position: absolute;
+  left: 0;
+  color: #bbb;
 }}
 </style>
 </head>
