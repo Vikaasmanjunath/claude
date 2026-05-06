@@ -403,6 +403,29 @@ details[open] summary::before { content: "−"; }
   .tl-row { grid-template-columns: 160px 1fr 50px; }
   .card-meta { grid-template-columns: 1fr 1fr; }
 }
+
+.expect-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 0;
+}
+
+.expect-list li {
+  font-size: 13px;
+  color: #333;
+  padding-left: 14px;
+  position: relative;
+  line-height: 1.55;
+}
+
+.expect-list li::before {
+  content: "3";
+  position: absolute;
+  left: 0;
+  color: #bbb;
+}
 </style>
 </head>
 <body>
@@ -410,7 +433,7 @@ details[open] summary::before { content: "−"; }
 <div class="header">
   <div class="header-eyebrow">Grant search engine &middot; May 06, 2026 &middot; 21 search terms</div>
   <h1>Cardiovascular health research funding</h1>
-  <div class="header-sub">Vikaas Manjunath &middot; PhD Student, Kinesiology, MSU &middot; F-1 visa &middot; Generated May 06, 2026 at 12:13 AM UTC</div>
+  <div class="header-sub">Vikaas Manjunath &middot; PhD Student, Kinesiology, MSU &middot; F-1 visa &middot; Generated May 06, 2026 at 03:59 AM UTC</div>
   <div class="header-chips">
     <span class="header-chip">Exercise physiology</span>
     <span class="header-chip">Vascular health (FMD / PWV / cIMT)</span>
@@ -426,9 +449,9 @@ details[open] summary::before { content: "−"; }
 <div class="wrap">
 
 <div class="stats">
-  <div class="stat"><div class="stat-n">22</div><div class="stat-l">Total grants</div></div>
+  <div class="stat"><div class="stat-n">17</div><div class="stat-l">Total grants</div></div>
   <div class="stat"><div class="stat-n">14</div><div class="stat-l">F-1 eligible</div></div>
-  <div class="stat"><div class="stat-n">8</div><div class="stat-l">Verify citizenship</div></div>
+  <div class="stat"><div class="stat-n">3</div><div class="stat-l">Verify citizenship</div></div>
   <div class="stat"><div class="stat-n">11</div><div class="stat-l">High confidence</div></div>
   <div class="stat"><div class="stat-n">2</div><div class="stat-l">Due within 90d</div></div>
 </div>
@@ -436,28 +459,28 @@ details[open] summary::before { content: "−"; }
 <div class="section">
   <div class="section-title">Upcoming deadlines</div>
   <div class="tl-row">
-  <span class="tl-date" style="color:#c0392b">Register now — MIEC26 (check msinbre.org/miec26 for dates)</span>
-  <span class="tl-name">Mississippi IDeA/EPSCoR Conference (MIEC) — Student Poster Competition</span>
+  <span class="tl-date" style="color:#c0392b">Register now - MIEC26 (check msinbre.org/miec26)</span>
+  <span class="tl-name">Mississippi IDeA/EPSCoR Conference (MIEC) - Student Poster Competition</span>
   <span class="tl-days" style="color:#c0392b">14d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#b45309">~August 2026 (verify at diabeteseducator.org)</span>
+  <span class="tl-date" style="color:#b45309">August 2026 (verify at diabeteseducator.org)</span>
   <span class="tl-name">ADCES Research Grant Program</span>
   <span class="tl-days" style="color:#b45309">87d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#18100a">Rolling — requires your advisor to hold an active NIH grant</span>
+  <span class="tl-date" style="color:#18100a">Rolling - requires advisor to hold an active NIH grant</span>
   <span class="tl-name">NIH Research Supplement to Promote Diversity in Health-Related Research</span>
   <span class="tl-days" style="color:#18100a">101d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#18100a">Rolling — contact MSU INBRE coordinator (msinbre.org)</span>
+  <span class="tl-date" style="color:#18100a">Rolling - contact MSU INBRE coordinator (msinbre.org)</span>
   <span class="tl-name">Mississippi INBRE Graduate Student Research Support</span>
   <span class="tl-days" style="color:#18100a">118d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#18100a">~September 2026 (verify at asep.org)</span>
+  <span class="tl-date" style="color:#18100a">September 2026 (verify at asep.org)</span>
   <span class="tl-name">ASEP Student Award for Research Excellence</span>
   <span class="tl-days" style="color:#18100a">118d</span>
 </div><div class="tl-row">
   <span class="tl-date" style="color:#18100a">September 3, 2026 (3 PM CT)</span>
-  <span class="tl-name">AHA Predoctoral Fellowship — Autism Speaks Co-funded Track</span>
+  <span class="tl-name">AHA Predoctoral Fellowship - Autism Speaks Co-funded Track</span>
   <span class="tl-days" style="color:#18100a">120d</span>
 </div><div class="tl-row">
   <span class="tl-date" style="color:#18100a">September 3, 2026 (3 PM CT)</span>
@@ -465,14 +488,14 @@ details[open] summary::before { content: "−"; }
   <span class="tl-days" style="color:#18100a">120d</span>
 </div><div class="tl-row">
   <span class="tl-date" style="color:#18100a">October 1, 2026</span>
-  <span class="tl-name">Sigma Xi Grants-in-Aid of Research (GIAR) — Fall Round</span>
+  <span class="tl-name">Sigma Xi Grants-in-Aid of Research (GIAR) - Fall Round</span>
   <span class="tl-days" style="color:#18100a">148d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#18100a">~October 2026 (verify at vswfoundation.org)</span>
-  <span class="tl-name">SVS Foundation Research Initiatives — Student / Trainee Award</span>
+  <span class="tl-date" style="color:#18100a">October 2026 (verify at vswfoundation.org)</span>
+  <span class="tl-name">SVS Foundation Research Initiatives - Student / Trainee Award</span>
   <span class="tl-days" style="color:#18100a">162d</span>
 </div><div class="tl-row">
-  <span class="tl-date" style="color:#18100a">~Late November 2026 (opens after Labor Day — Sept 2026)</span>
+  <span class="tl-date" style="color:#18100a">Late November 2026 (opens September 2026)</span>
   <span class="tl-name">ACSM Foundation Doctoral Student Research Grant</span>
   <span class="tl-days" style="color:#18100a">208d</span>
 </div>
@@ -495,7 +518,7 @@ details[open] summary::before { content: "−"; }
 </div>
 
 <div class="controls">
-  <button class="filter-btn active" data-f="all">All (22)</button>
+  <button class="filter-btn active" data-f="all">All (17)</button>
   <button class="filter-btn" data-f="unrestricted">F-1 eligible</button>
   <button class="filter-btn" data-f="high-conf">High confidence</button>
   <button class="filter-btn" data-f="active">Active now</button>
@@ -508,7 +531,7 @@ details[open] summary::before { content: "−"; }
     <option value="conf">Sort by confidence</option>
     <option value="deadline">Sort by deadline</option>
   </select>
-  <span class="count-label" id="countLabel">22 shown</span>
+  <span class="count-label" id="countLabel">17 shown</span>
 </div>
 
 <div class="cards-list" id="cardsList">
@@ -516,7 +539,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">American Heart Association + Autism Speaks</div>
-      <h2 class="card-title">AHA Predoctoral Fellowship — Autism Speaks Co-funded Track</h2>
+      <h2 class="card-title">AHA Predoctoral Fellowship - Autism Speaks Co-funded Track</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-green">92% match</span>
@@ -535,7 +558,7 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">1–2 years</span>
+      <span class="meta-value">1-2 years</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -544,8 +567,17 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">YOUR SINGLE HIGHEST-PRIORITY APPLICATION. Your 24-week RCT (CAT vs SIT exercise programs) with adults with intellectual disabilities, combined with vascular outcomes (PWV, FMD, central blood pressure via SphygmoCor) is textbook eligibility for this track. People with intellectual disabilities face significantly elevated cardiometabolic risk. This co-funded track is LESS competitive than the standard AHA track while carrying identical funding and prestige.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>All requirements identical to the standard AHA Predoctoral Fellowship</li>
+<li>Research proposal must explicitly address cardiovascular health in the context of intellectual disability or autism spectrum disorder</li>
+<li>The cardiovascular-intellectual disability intersection must be central to specific aims, not a secondary outcome</li>
+<li>Select the Autism Speaks co-funded track in ProposalCentral at submission</li>
+<li>Reviewed by a separate panel from the standard AHA Predoc - smaller and less competitive applicant pool</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">This track funds research at the intersection of cardiovascular health and intellectual or developmental disabilities, which is one of your primary study populations. Adults with intellectual disabilities carry disproportionately high rates of metabolic syndrome, hypertension, and physical inactivity. Conducting structured exercise interventions and measuring vascular outcomes (PWV, FMD, central blood pressure via SphygmoCor) in this population directly satisfies the co-funded track stated aims.</p>
   </div>
 
   <div class="card-field">
@@ -558,10 +590,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Same as standard AHA Predoctoral Fellowship</span><span class="tag">Research proposal must explicitly address CVD health at intersection of autism/intellectual disability</span><span class="tag">Select the co-funded track when submitting in ProposalCentral</span></div>
+    <div class="tag-row"><span class="tag">Same as standard AHA Predoctoral Fellowship</span><span class="tag">Research proposal must address CVD health in intellectual disability or autism</span><span class="tag">Select the co-funded track in ProposalCentral at submission</span></div>
   </div>
 
-  <div class="strategic-note">Frame your RCT data: CAT and SIT exercise interventions reduce cardiovascular risk in adults with intellectual disabilities. Lead with the vascular outcomes (PWV reduction, FMD improvement) — that's what AHA reviewers want to see.</div>
+  <div class="strategic-note">Lead the proposal with your vascular outcomes in this population (PWV, FMD). The cardiovascular-intellectual disability intersection must be the primary aim, not a secondary note.</div>
 
   <div class="card-footer">
     <a href="https://www.autismspeaks.org/science-news/request-applications-2026-aha-predoctoral-and-postdoctoral-fellowships" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -587,11 +619,11 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$28,000–$32,000/yr stipend + $12,200 health insurance/yr</span>
+      <span class="meta-value">$28,000-$32,000/yr stipend + $12,200 health insurance/yr</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">1–2 years</span>
+      <span class="meta-value">1-2 years</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -600,31 +632,44 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Direct match across all dimensions: vascular health outcomes (FMD, PWV, cIMT via SphygmoCor and ultrasound), exercise physiology, middle-aged to older adult populations, and metabolic syndrome. Dr. Oviedo and Dr. Agiovlasitis serve as mentor/co-mentor. Must reach dissertation stage by award activation — plan for 2nd-year application.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Enrolled full-time in a doctoral program at a US-based nonprofit institution</li>
+<li>At least 80% effort devoted to research at time of award activation</li>
+<li>Research must directly address cardiovascular, cerebrovascular, or brain health</li>
+<li>Active AHA Professional Membership at time of submission (join 3-5 days before deadline)</li>
+<li>Named faculty sponsor (primary mentor) and co-sponsor</li>
+<li>5-page research proposal with specific aims, background, and approach</li>
+<li>Individual Development Plan (IDP) outlining career goals</li>
+<li>Three reference letters from scientists outside the mentor relationship</li>
+<li>NIH-format biosketch</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">This fellowship funds doctoral research on cardiovascular health outcomes. Working with middle-aged and older adults, individuals with metabolic syndrome, and non-communicable disease populations, and measuring vascular outcomes including arterial stiffness, endothelial function, and central hemodynamics using SphygmoCor and vascular ultrasound, aligns precisely with what AHA funds. Structured exercise interventions and objective physical activity measurement via accelerometry address AHA priority areas in lifestyle-based cardiovascular risk reduction.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">Explicitly open to F-1, J-1, O-1, and other visa types. Applicant must be at a US-based nonprofit institution. No US citizenship required. <span class="cite">— AHA 2026 FOA PDF, Section IV Eligibility</span></p>
+    <p class="field-text">Explicitly open to F-1, J-1, O-1, and all visa types. Must be at a US-based nonprofit institution. No US citizenship required. <span class="cite">— AHA 2026 FOA PDF, Section IV Eligibility</span></p>
   </div>
 
-  <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">FMD</span><span class="tag tag-eq">PWV</span><span class="tag tag-eq">cIMT</span><span class="tag tag-eq">metabolic cart</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">cardiovascular disease</span><span class="tag tag-pop">vascular</span></div></div>
+  <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">FMD</span><span class="tag tag-eq">PWV</span><span class="tag tag-eq">cIMT</span><span class="tag tag-eq">CPET</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">cardiovascular disease</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">AHA Professional Membership (join 3–5 days before deadline — do not wait)</span><span class="tag">5-page cardiovascular/cerebrovascular research proposal</span><span class="tag">3 reference letters (not from mentor or co-mentor)</span><span class="tag">Mentor and co-mentor letters of support</span><span class="tag">NIH-format Biosketch</span><span class="tag">Individual Development Plan (IDP)</span><span class="tag">Submit electronically via ProposalCentral</span></div>
+    <div class="tag-row"><span class="tag">AHA Professional Membership (join before deadline)</span><span class="tag">5-page cardiovascular research proposal</span><span class="tag">3 reference letters (not from mentor or co-mentor)</span><span class="tag">Mentor and co-mentor letters of support</span><span class="tag">NIH-format Biosketch</span><span class="tag">Individual Development Plan</span><span class="tag">Submit via ProposalCentral</span></div>
   </div>
 
-  <div class="strategic-note">Apply SIMULTANEOUSLY to the standard track AND the Autism Speaks co-funded track (same portal, same deadline, separate review panel). AHA explicitly prohibits AI-generated content in proposals — write everything yourself.</div>
+  <div class="strategic-note">Apply to BOTH the standard track AND the Autism Speaks co-funded track simultaneously. Same portal, same deadline, separate review panel. AHA prohibits AI-generated content in proposals.</div>
 
   <div class="card-footer">
     <a href="https://professional.heart.org/en/research-programs/aha-funding-opportunities/predoctoral-fellowship" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">UPCOMING</span>
   </div>
 </div>
-<div class="card" data-conf="85" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise science sports medicine cardiovascular metabolic vascular">
+<div class="card" data-conf="85" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise science cardiovascular metabolic vascular">
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">American College of Sports Medicine Foundation</div>
@@ -639,7 +684,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~Late November 2026 (opens after Labor Day — Sept 2026) · 208d</span>
+      <span class="meta-value" style="color:#18100a">Late November 2026 (opens September 2026) · 208d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -656,13 +701,24 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Perfect alignment: doctoral exercise science research (basic and applied), international ACSM members explicitly eligible. Best used for consumable research costs: blood glucose/cholesterol test strips, accelerometry accessories, NIRS probes, participant compensation. Low competition relative to NIH/AHA — high probability of award for a strong first-year applicant.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Full-time enrollment in a doctoral program</li>
+<li>Current ACSM student membership (must join before applying, approximately $55/year)</li>
+<li>Research proposal with specific aims, significance, and approach</li>
+<li>Itemized budget - funds are for research costs only, not stipend or tuition</li>
+<li>Faculty mentor letter confirming doctoral student status and project support</li>
+<li>CV or NIH-format biosketch</li>
+<li>Research must fall within exercise science, sports medicine, or related health science</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">ACSM supports doctoral research in exercise science and health disciplines. Studying how structured exercise training influences cardiovascular and vascular health in metabolic syndrome, non-communicable disease, and older adult populations, and measuring outcomes using CPET, vascular ultrasound, SphygmoCor, and NIRS, falls within ACSM funded science. Best used for consumable research costs: blood glucose and cholesterol strips, accelerometer accessories, NIRS probes, or participant compensation.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">Explicitly open to international ACSM members worldwide. No citizenship restriction of any kind. <span class="cite">— ACSM Foundation grant eligibility page — 'open to all ACSM members, including international members'</span></p>
+    <p class="field-text">Explicitly open to international ACSM members worldwide. No citizenship restriction of any kind. <span class="cite">— ACSM Foundation grant eligibility page</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">blood glucose</span><span class="tag tag-eq">cholesterol</span><span class="tag tag-eq">NIRS</span><span class="tag tag-eq">SphygmoCor</span></div></div>
@@ -670,20 +726,20 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Current ACSM membership (student rate ~$55/yr — join now)</span><span class="tag">Full-time doctoral student status letter</span><span class="tag">Specific aims and research proposal</span><span class="tag">Itemized budget with justification</span><span class="tag">Faculty mentor letter of support</span><span class="tag">CV / NIH-format biosketch</span></div>
+    <div class="tag-row"><span class="tag">Current ACSM student membership (~$55/year)</span><span class="tag">Full-time doctoral student status</span><span class="tag">Research proposal with specific aims</span><span class="tag">Itemized budget justification</span><span class="tag">Faculty mentor letter</span><span class="tag">CV or biosketch</span></div>
   </div>
 
-  <div class="strategic-note">Also submit to the Gisolfi Memorial Fund (same portal, same deadline, different fund). Two applications, two chances, one submission window.</div>
+  <div class="strategic-note">Also apply to the Gisolfi Memorial Fund (same portal, same deadline). Two applications, two chances, 30 minutes extra effort.</div>
 
   <div class="card-footer">
     <a href="https://acsm.org/foundation/funding/research-program-grants/acsm-foundation-doctoral-student-research-grant" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">UPCOMING</span>
   </div>
 </div>
-<div class="card" data-conf="83" data-citizenship="unrestricted" data-source="curated" data-status="active" data-urgency="normal" data-cats="cardiovascular aging metabolic vascular exercise health disparities">
+<div class="card" data-conf="83" data-citizenship="unrestricted" data-source="curated" data-status="active" data-urgency="normal" data-cats="cardiovascular aging metabolic vascular exercise">
   <div class="card-header">
     <div class="card-header-left">
-      <div class="org-label">National Institutes of Health — NIA / NHLBI / NIDDK</div>
+      <div class="org-label">National Institutes of Health (NIA / NHLBI / NIDDK)</div>
       <h2 class="card-title">NIH Research Supplement to Promote Diversity in Health-Related Research</h2>
     </div>
     <div class="card-header-right">
@@ -695,7 +751,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">Rolling — requires your advisor to hold an active NIH grant · 101d</span>
+      <span class="meta-value" style="color:#18100a">Rolling - requires advisor to hold an active NIH grant · 101d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -703,7 +759,7 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">1–2 years (renewable)</span>
+      <span class="meta-value">1-2 years (renewable)</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -712,13 +768,23 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">FASTEST NIH FUNDING PATH for international students. If Dr. Oviedo or Dr. Agiovlasitis holds an active NIH R01, R15, R21, or equivalent, they apply for a supplement to fund your graduate training. No citizenship needed. Your CVD/vascular/aging research profile matches NIA (aging), NHLBI (cardiovascular), and NIDDK (metabolic/diabetes) missions.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Your faculty advisor must hold an active NIH R01, R15, R21, or equivalent - the supplement is attached to their grant</li>
+<li>The PI submits the supplement application; you provide supporting materials</li>
+<li>You supply a 2-page research aims statement, a training plan, and an NIH-format biosketch</li>
+<li>Research must relate to the parent grant aims</li>
+<li>Rolling review - no standard deadline</li>
+<li>Funded activities include graduate stipend, tuition, and direct research costs</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">This mechanism funds graduate training under an active NIH grant with no citizenship requirement for the student. Research on cardiovascular health, vascular function, and exercise in middle-aged and older adults, metabolic syndrome, and non-communicable disease populations aligns with NIA (aging), NHLBI (cardiovascular), and NIDDK (metabolic disease). The immediate step is asking your advisors whether they hold an active NIH R-series award.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction. Supplements support individuals at eligible US institutions regardless of visa status. Awarded through your advisor's existing NIH R-series grant. International graduate students explicitly included. <span class="cite">— NIH PA-21-071 — Research Supplements to Promote Diversity. Section III: Eligibility explicitly does not require citizenship.</span></p>
+    <p class="field-text">No citizenship restriction. International graduate students are explicitly included. Awarded through your advisor's existing NIH grant. <span class="cite">— NIH PA-21-071 Section III - Eligibility does not require citizenship</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">NIRS</span></div></div>
@@ -726,10 +792,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Your advisor must hold an active NIH R-series grant (ask this week)</span><span class="tag">You provide: biosketch, 3-page training plan, and 2-page research aims</span><span class="tag">Advisor submits supplement application to relevant NIH institute</span><span class="tag">Demonstrates underrepresentation or early-stage research career</span></div>
+    <div class="tag-row"><span class="tag">Advisor must hold an active NIH R-series grant (ask your advisors this week)</span><span class="tag">2-page research aims statement from you</span><span class="tag">NIH-format biosketch</span><span class="tag">Training plan</span><span class="tag">PI submits the supplement application</span></div>
   </div>
 
-  <div class="strategic-note">ACTION ITEM #1: Email Dr. Oviedo and Dr. Agiovlasitis TODAY asking whether they hold an active NIH grant. If yes, this is your most immediate funding opportunity. The supplement application takes 2–3 weeks to prepare.</div>
+  <div class="strategic-note">Ask Dr. Oviedo and Dr. Agiovlasitis this week if they hold an active NIH grant. If yes, this is your most immediate funding path as an international student.</div>
 
   <div class="card-footer">
     <a href="https://grants.nih.gov/grants/guide/pa-files/PA-21-071.html" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -751,15 +817,15 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">Rolling — contact MSU INBRE coordinator (msinbre.org) · 118d</span>
+      <span class="meta-value" style="color:#18100a">Rolling - contact MSU INBRE coordinator (msinbre.org) · 118d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies — instrumentation access, supplies, travel, graduate support</span>
+      <span class="meta-value">Varies - instrumentation access, supplies, travel, graduate support</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">1–2 years</span>
+      <span class="meta-value">1-2 years</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -768,24 +834,33 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">MS INBRE's primary scientific focus areas are diabetes, obesity, cardiovascular disease, and health disparities — exact match to your research populations. MSU has two new INBRE-funded labs. Fastest path to funded research time and instrumentation access while building toward AHA and NIH applications.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Enrollment at an MSU department affiliated with the Mississippi INBRE network</li>
+<li>Research proposal aligned with INBRE core focus: diabetes, obesity, cardiovascular disease, health disparities</li>
+<li>Faculty mentor endorsement from a researcher within the INBRE network</li>
+<li>Funding cycles are not publicly posted - direct contact with the MSU INBRE coordinator is required</li>
+<li>Supported activities: instrumentation access, research supplies, graduate student stipend</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">Mississippi INBRE priorities, including diabetes, obesity, cardiovascular disease, and health disparities, correspond directly to the populations you study: individuals with metabolic syndrome, metabolic disease, and non-communicable disease risk in Mississippi. As an MSU graduate student with faculty mentors in the kinesiology department, you meet the institutional eligibility criteria.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction. Available to all graduate students enrolled at eligible Mississippi institutions. MSU is an active INBRE partner institution with two newly established INBRE-funded research labs. <span class="cite">— Mississippi INBRE program documentation — NIH IDeA supplements are not citizenship-restricted</span></p>
+    <p class="field-text">No citizenship restriction. All graduate students at eligible Mississippi institutions qualify. MSU is an active INBRE partner. <span class="cite">— Mississippi INBRE program documentation - NIH IDeA supplements are not citizenship-restricted</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">blood glucose</span><span class="tag tag-eq">cholesterol</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">older adults</span><span class="tag tag-pop">health disparities</span><span class="tag tag-pop">diabetes</span><span class="tag tag-pop">obesity</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">older adults</span><span class="tag tag-pop">diabetes</span><span class="tag tag-pop">obesity</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Enrollment at MSU (active INBRE network partner)</span><span class="tag">Research proposal aligned with INBRE biomedical focus (diabetes, obesity, CVD, health disparities)</span><span class="tag">Faculty mentor endorsement (Dr. Oviedo or Dr. Agiovlasitis)</span><span class="tag">Contact INBRE coordinator directly — cycles not always publicly posted</span></div>
+    <div class="tag-row"><span class="tag">Enrollment at MSU (active INBRE network partner)</span><span class="tag">Proposal aligned with INBRE focus: diabetes, obesity, CVD, health disparities</span><span class="tag">Faculty mentor endorsement</span><span class="tag">Contact MSU INBRE coordinator directly - cycles not publicly posted</span></div>
   </div>
 
-  <div class="strategic-note">Also register and present at MIEC 2026 (msinbre.org/miec26) — INBRE leadership who control funding are at this conference. Visibility = access.</div>
+  <div class="strategic-note">Register and present at MIEC 2026 (msinbre.org/miec26) - INBRE leadership who control funding attend this conference.</div>
 
   <div class="card-footer">
     <a href="https://msinbre.org" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -807,11 +882,11 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~September 2026 (verify at asep.org) · 118d</span>
+      <span class="meta-value" style="color:#18100a">September 2026 (verify at asep.org) · 118d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$500–$2,000</span>
+      <span class="meta-value">$500-$2,000</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
@@ -824,35 +899,44 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Professional society specifically for exercise physiologists. Your CPET data (VO2max = 46.5 mL·kg⁻¹·min⁻¹, peak RER = 1.34) and exercise intervention research is textbook ASEP science. Small award but strong CV value as a first-year PhD student.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>ASEP student membership required</li>
+<li>Research abstract, poster, or manuscript demonstrating exercise physiology research</li>
+<li>Faculty endorsement letter</li>
+<li>Verify exact 2026 submission window at asep.org</li>
+<li>Confirm citizenship eligibility with ASEP before applying</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">ASEP is the professional society specifically for exercise physiologists. Research using CPET (VO2max, metabolic cart), NIRS (tissue oxygenation), SphygmoCor (central hemodynamics), and vascular ultrasound to characterize cardiorespiratory and vascular responses to exercise in metabolic syndrome, non-communicable disease, older adult, and intellectual disability populations is core exercise physiology science.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction in published materials. ASEP student membership required. <span class="cite">— ASEP awards page — no citizenship criterion listed</span></p>
+    <p class="field-text">No citizenship restriction in published materials. ASEP student membership required. Confirm with ASEP. <span class="cite">— ASEP awards page - no citizenship criterion listed</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">NIRS</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">athletes</span><span class="tag tag-pop">cardiovascular risk</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">cardiovascular risk</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">ASEP student membership</span><span class="tag">Research abstract or manuscript</span><span class="tag">Faculty endorsement letter</span></div>
+    <div class="tag-row"><span class="tag">ASEP student membership</span><span class="tag">Research abstract or manuscript</span><span class="tag">Faculty endorsement letter</span><span class="tag">Confirm citizenship eligibility at asep.org</span></div>
   </div>
 
-  <div class="strategic-note">Small award, high probability. Excellent for your CV and building visibility in the exercise physiology community early in your PhD.</div>
+  <div class="strategic-note">Small award but strong CV value. Confirm citizenship policy with ASEP before applying.</div>
 
   <div class="card-footer">
     <a href="https://www.asep.org/" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">UPCOMING</span>
   </div>
 </div>
-<div class="card" data-conf="76" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise physiology thermoregulation cardiovascular hydration">
+<div class="card" data-conf="76" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise physiology thermoregulation cardiovascular">
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">American College of Sports Medicine Foundation</div>
-      <h2 class="card-title">Carl V. Gisolfi Memorial Fund — Doctoral Student Grant</h2>
+      <h2 class="card-title">Carl V. Gisolfi Memorial Fund - Doctoral Student Grant</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-teal">76% match</span>
@@ -863,7 +947,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~Late November 2026 (same cycle as ACSM Doctoral Grant) · 208d</span>
+      <span class="meta-value" style="color:#18100a">Late November 2026 (same cycle as ACSM Doctoral Grant) · 208d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -880,24 +964,33 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Exercise + cardiovascular + thermoregulatory physiology focus. Your metabolic cart (VO2max, RER) and NIRS (tissue oxygenation during exercise) data fits well. Frame cardiovascular and thermoregulatory responses to exercise interventions in metabolic syndrome or older adult populations.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Same ACSM membership and enrollment requirements as the Doctoral Grant</li>
+<li>Research proposal must have a thermoregulation, hydration, or exercise-environment interaction angle</li>
+<li>Budget for direct research costs only</li>
+<li>Mentor letter and CV</li>
+<li>Applied through the same ACSM Foundation portal as the Doctoral Grant</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">The Gisolfi Fund targets exercise physiology research involving thermoregulation and cardiovascular responses to exercise. Older adults and individuals with metabolic disease have blunted thermoregulatory capacity and impaired cardiovascular control during exertion. Measuring physiological responses during structured exercise using metabolic cart (VO2max, ventilatory thresholds) and NIRS (tissue oxygenation) connects directly to this fund's scope.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">Open to international ACSM members — same eligibility as ACSM Doctoral Grant. <span class="cite">— ACSM Foundation endowments page</span></p>
+    <p class="field-text">Open to international ACSM members. Same eligibility as ACSM Doctoral Grant. <span class="cite">— ACSM Foundation endowments page</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">NIRS</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">SphygmoCor</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">athletes</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">metabolic syndrome</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Current ACSM membership</span><span class="tag">Doctoral student status</span><span class="tag">Research proposal with thermoregulation/exercise/hydration angle</span><span class="tag">Budget, mentor letter, CV</span></div>
+    <div class="tag-row"><span class="tag">Current ACSM membership</span><span class="tag">Doctoral student status</span><span class="tag">Research proposal with thermoregulation or exercise-environment angle</span><span class="tag">Budget, mentor letter, CV</span></div>
   </div>
 
-  <div class="strategic-note">Apply to this alongside the main ACSM Doctoral Grant — same submission portal and window. Costs you 30 extra minutes to adapt the proposal framing.</div>
+  <div class="strategic-note">Same portal and window as the ACSM Doctoral Grant. Adapting the proposal framing adds minimal effort for a second chance at funding.</div>
 
   <div class="card-footer">
     <a href="https://acsm.org/foundation/funding/research-program-grants/" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -919,7 +1012,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">March 14, 2027 (applications open January 15, 2027) · 312d</span>
+      <span class="meta-value" style="color:#18100a">March 14, 2027 (opens January 15, 2027) · 312d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -936,13 +1029,22 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">STRONG FIT. AFAR focuses on biology of aging — your research on middle-aged to older adults, cardiorespiratory fitness decline (VO2max), and vascular aging mechanisms (FMD, PWV, cIMT) aligns directly. No citizenship restriction confirmed across multiple sources. Set a January 15, 2027 calendar alert.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Graduate student, medical student, or postdoctoral fellow at a US institution</li>
+<li>Research proposal focused on biology of aging - mechanisms, biomarkers, or interventions</li>
+<li>Mentor letter confirming supervision and institutional affiliation</li>
+<li>CV demonstrating academic progress in aging-related science</li>
+<li>Application window: January 15 to March 14 annually</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">AFAR funds research on biological mechanisms of aging and age-related disease. Studying how exercise, physical activity, and sedentary behavior influence vascular aging markers including arterial stiffness, endothelial function, and cardiorespiratory fitness decline in middle-aged and older adults addresses the biology of aging directly. Individuals with metabolic syndrome and non-communicable disease represent accelerated vascular aging phenotypes. SphygmoCor (PWV), vascular ultrasound (FMD, cIMT), and CPET (VO2max) provide objective aging biomarker data.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction stated. Open to medical and graduate students, postdoctoral fellows. Applications accepted January 15–March 14 annually. <span class="cite">— AFAR grant listings — no citizenship requirement in published eligibility criteria</span></p>
+    <p class="field-text">No citizenship restriction stated. Open to medical and graduate students and postdoctoral fellows at US institutions. <span class="cite">— AFAR grant listings - no citizenship requirement in published eligibility criteria</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">accelerometer</span></div></div>
@@ -950,21 +1052,21 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Graduate student, medical student, or postdoctoral fellow</span><span class="tag">Research proposal focused on biology of aging</span><span class="tag">Mentor letter of support</span><span class="tag">CV and academic record</span></div>
+    <div class="tag-row"><span class="tag">Graduate student or postdoctoral fellow at a US institution</span><span class="tag">Research proposal on biology of aging</span><span class="tag">Mentor letter of support</span><span class="tag">CV</span></div>
   </div>
 
-  <div class="strategic-note">Frame your research explicitly around mechanisms of vascular aging and how exercise interventions slow age-related cardiovascular decline. AFAR reviewers respond to aging biology framing.</div>
+  <div class="strategic-note">Frame your work around vascular aging mechanisms and how exercise interventions slow age-related cardiovascular decline. Set a January 15, 2027 calendar alert.</div>
 
   <div class="card-footer">
     <a href="https://www.afar.org/grants" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">FUTURE</span>
   </div>
 </div>
-<div class="card" data-conf="72" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise science cardiovascular vascular biomedical accelerometry">
+<div class="card" data-conf="72" data-citizenship="unrestricted" data-source="curated" data-status="upcoming" data-urgency="normal" data-cats="exercise science cardiovascular vascular biomedical">
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">Sigma Xi Scientific Research Honor Society</div>
-      <h2 class="card-title">Sigma Xi Grants-in-Aid of Research (GIAR) — Fall Round</h2>
+      <h2 class="card-title">Sigma Xi Grants-in-Aid of Research (GIAR) - Fall Round</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-teal">72% match</span>
@@ -992,13 +1094,22 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Widely used in exercise science and biomechanics for data collection costs. Easiest grant to get as an international student — no citizenship barrier whatsoever. Apply as non-member now ($1,000) and join MSU Sigma Xi chapter simultaneously to be eligible for $5,000 in the spring round.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Graduate student at any institution worldwide - no other eligibility restrictions</li>
+<li>2-page research proposal written for a general scientific audience</li>
+<li>Faculty advisor endorsement letter confirming project and student status</li>
+<li>Itemized budget ($1,000 cap for non-members, $5,000 for Sigma Xi members)</li>
+<li>Funds must support direct research costs only - not salary, tuition, or conference travel</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">Sigma Xi funds research across all scientific disciplines with no thematic restriction. Research on cardiovascular and vascular health in metabolic syndrome, intellectual disability, and older adult populations using accelerometry, vascular ultrasound, SphygmoCor, and blood glucose monitoring falls within their broad biomedical and health sciences scope. No citizenship barrier - the most accessible grant currently available to you.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">Absolutely no citizenship restriction. Open to all graduate students at any institution worldwide. <span class="cite">— Sigma Xi GIAR program page — no citizenship requirement mentioned anywhere</span></p>
+    <p class="field-text">No citizenship restriction whatsoever. Open to all graduate students worldwide. <span class="cite">— Sigma Xi GIAR program page - no citizenship requirement mentioned anywhere</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">blood glucose</span><span class="tag tag-eq">NIRS</span><span class="tag tag-eq">vascular ultrasound</span></div></div>
@@ -1006,10 +1117,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Online application at sigmaxi.org/programs/grants-in-aid-of-research</span><span class="tag">2-page research proposal</span><span class="tag">Faculty advisor endorsement letter</span><span class="tag">Itemized budget (equipment, supplies, participant compensation)</span></div>
+    <div class="tag-row"><span class="tag">Online application at sigmaxi.org</span><span class="tag">2-page research proposal</span><span class="tag">Faculty advisor endorsement letter</span><span class="tag">Itemized budget</span></div>
   </div>
 
-  <div class="strategic-note">Two rounds per year: October 1 (fall) and March 15 (spring). Apply to fall round now. Join MSU Sigma Xi chapter in fall semester to unlock $5,000 cap for the March spring round.</div>
+  <div class="strategic-note">Apply to fall round now. Join MSU Sigma Xi chapter simultaneously to unlock $5,000 cap for the March 2027 spring round.</div>
 
   <div class="card-footer">
     <a href="https://www.sigmaxi.org/programs/grants-in-aid-of-research" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1020,7 +1131,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">Sigma Xi Scientific Research Honor Society</div>
-      <h2 class="card-title">Sigma Xi Grants-in-Aid of Research (GIAR) — Spring Round</h2>
+      <h2 class="card-title">Sigma Xi Grants-in-Aid of Research (GIAR) - Spring Round</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-teal">72% match</span>
@@ -1035,7 +1146,7 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$1,000 (non-member) / $5,000 (member)</span>
+      <span class="meta-value">$1,000 (non-member) / $5,000 (Sigma Xi member)</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
@@ -1048,8 +1159,16 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Spring follow-up to the fall round. If you collect pilot data in fall 2026, report preliminary results here and apply for continuation or a new aim. As a Sigma Xi member by spring, you qualify for the $5,000 cap.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Same requirements as the fall round</li>
+<li>Sigma Xi membership by submission date unlocks the $5,000 cap</li>
+<li>Proposal can describe new aims or continuation of fall-funded work</li>
+<li>Faculty endorsement and itemized budget required</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">Same population and methods alignment as the fall round. By the spring cycle, preliminary data from metabolic syndrome, older adult, or intellectual disability cohorts using vascular ultrasound, SphygmoCor, or NIRS can strengthen the proposal. Sigma Xi membership obtained in fall 2026 raises the award ceiling to $5,000.</p>
   </div>
 
   <div class="card-field">
@@ -1062,20 +1181,20 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Online application at sigmaxi.org</span><span class="tag">2-page research proposal</span><span class="tag">Faculty endorsement letter</span><span class="tag">Budget</span></div>
+    <div class="tag-row"><span class="tag">Online application at sigmaxi.org</span><span class="tag">2-page research proposal</span><span class="tag">Faculty endorsement letter</span><span class="tag">Itemized budget</span></div>
   </div>
 
-  <div class="strategic-note">Join MSU Sigma Xi chapter in fall semester 2026 so you're a member by the March 15, 2027 deadline — unlocks the $5K cap vs $1K non-member limit.</div>
+  <div class="strategic-note">Join MSU Sigma Xi chapter in fall 2026 so you hold membership by March 15, 2027 - raises cap from $1,000 to $5,000.</div>
 
   <div class="card-footer">
     <a href="https://www.sigmaxi.org/programs/grants-in-aid-of-research" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">FUTURE</span>
   </div>
 </div>
-<div class="card" data-conf="71" data-citizenship="unspecified" data-source="curated" data-status="upcoming" data-urgency="soon" data-cats="metabolic diabetes cardiovascular exercise health disparities">
+<div class="card" data-conf="71" data-citizenship="unspecified" data-source="curated" data-status="upcoming" data-urgency="soon" data-cats="metabolic diabetes cardiovascular exercise">
   <div class="card-header">
     <div class="card-header-left">
-      <div class="org-label">Association of Diabetes Care &amp; Education Specialists</div>
+      <div class="org-label">Association of Diabetes Care and Education Specialists</div>
       <h2 class="card-title">ADCES Research Grant Program</h2>
     </div>
     <div class="card-header-right">
@@ -1087,15 +1206,15 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#b45309">~August 2026 (verify at diabeteseducator.org) · 87d</span>
+      <span class="meta-value" style="color:#b45309">August 2026 (verify at diabeteseducator.org) · 87d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$5,000–$10,000</span>
+      <span class="meta-value">$5,000-$10,000</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">1–2 years</span>
+      <span class="meta-value">1-2 years</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -1104,13 +1223,23 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Your metabolic syndrome/diabetes-risk population plus blood glucose monitoring, cholesterol testing, and exercise interventions fits the ADCES mission perfectly. Frame your exercise intervention as a diabetes prevention and cardiovascular risk reduction strategy — this is exactly what ADCES funds.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>ADCES membership required before applying</li>
+<li>Research proposal addressing diabetes care, education, or prevention of diabetes complications</li>
+<li>Mentor or PI endorsement letter</li>
+<li>Budget justification with timeline</li>
+<li>Verify exact 2026 deadline at diabeteseducator.org</li>
+<li>Confirm citizenship eligibility directly with ADCES</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">ADCES funds research on diabetes management and complication prevention. Working with individuals with metabolic syndrome, insulin resistance, and metabolic disease, and measuring glycemic markers (blood glucose) and cardiovascular risk indicators alongside structured exercise interventions, aligns with ADCES scope. Objective physical activity measurement via accelerometry further supports a diabetes care and prevention framing.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction in published materials. ADCES membership required. Research must address diabetes care or education. <span class="cite">— ADCES research grant page — citizenship not listed as eligibility criterion</span></p>
+    <p class="field-text">No citizenship restriction in published materials. ADCES membership required. Confirm citizenship eligibility with ADCES. <span class="cite">— ADCES research grant page - citizenship not listed as eligibility criterion</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">blood glucose</span><span class="tag tag-eq">cholesterol</span><span class="tag tag-eq">accelerometer</span><span class="tag tag-eq">metabolic cart</span></div></div>
@@ -1118,10 +1247,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">ADCES membership (verify student rate)</span><span class="tag">Research proposal addressing diabetes care, education, or prevention</span><span class="tag">Mentor or PI endorsement</span><span class="tag">Budget justification with timeline</span></div>
+    <div class="tag-row"><span class="tag">ADCES membership</span><span class="tag">Research proposal on diabetes care or complication prevention</span><span class="tag">Mentor endorsement</span><span class="tag">Budget justification</span><span class="tag">Confirm citizenship eligibility and exact deadline at diabeteseducator.org</span></div>
   </div>
 
-  <div class="strategic-note">Verify exact 2026 cycle dates at diabeteseducator.org — amounts and deadlines shift annually. Confirm citizenship policy by email before applying.</div>
+  <div class="strategic-note">Confirm citizenship eligibility and exact 2026 deadline at diabeteseducator.org before applying.</div>
 
   <div class="card-footer">
     <a href="https://www.diabeteseducator.org/education-research/research" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1132,7 +1261,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">Society for Vascular Surgery Foundation</div>
-      <h2 class="card-title">SVS Foundation Research Initiatives — Student / Trainee Award</h2>
+      <h2 class="card-title">SVS Foundation Research Initiatives - Student / Trainee Award</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-teal">69% match</span>
@@ -1143,11 +1272,11 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~October 2026 (verify at vswfoundation.org) · 162d</span>
+      <span class="meta-value" style="color:#18100a">October 2026 (verify at vswfoundation.org) · 162d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$5,000–$20,000 (varies by award tier)</span>
+      <span class="meta-value">$5,000-$20,000 (varies by award tier)</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
@@ -1160,24 +1289,33 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Your vascular ultrasound (FMD, carotid IMT) and SphygmoCor (PWV, augmentation index) work maps directly onto SVS vascular research priorities. Endothelial function and arterial stiffness in metabolic syndrome and older adult populations is core SVS science.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Student or trainee status at a US institution</li>
+<li>Research proposal with a clear vascular science focus: arterial disease, endothelial biology, or hemodynamics</li>
+<li>Mentor letter of support</li>
+<li>Verify exact deadline and amounts at vswfoundation.org before applying</li>
+<li>Confirm citizenship eligibility directly with SVS Foundation before applying</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">SVS Foundation funds vascular biology and clinical vascular science research. Measuring endothelial function via FMD (vascular ultrasound), arterial stiffness via pulse wave velocity (SphygmoCor), and carotid intima-media thickness in populations with metabolic syndrome, non-communicable disease, and older adults is direct vascular science using the exact measurement tools SVS-funded researchers employ.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction stated in official materials. Research must be focused on vascular science. Verify with SVS Foundation before applying. <span class="cite">— SVS Foundation grants page — citizenship not mentioned in eligibility criteria</span></p>
+    <p class="field-text">No citizenship restriction stated in official materials. Verify with SVS Foundation before applying. <span class="cite">— SVS Foundation grants page - citizenship not mentioned in eligibility criteria</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">FMD</span><span class="tag tag-eq">PWV</span><span class="tag tag-eq">cIMT</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">cardiovascular disease</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">atherosclerosis</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">cardiovascular disease</span><span class="tag tag-pop">metabolic syndrome</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Student or trainee status</span><span class="tag">Vascular-focused research proposal</span><span class="tag">Mentor letter of support</span><span class="tag">Verify current cycle details at vswfoundation.org</span></div>
+    <div class="tag-row"><span class="tag">Student or trainee status</span><span class="tag">Vascular-focused research proposal</span><span class="tag">Mentor letter</span><span class="tag">Confirm citizenship eligibility and exact deadline at vswfoundation.org</span></div>
   </div>
 
-  <div class="strategic-note">Verify citizenship eligibility directly with the SVS Foundation before investing time in the application — email their grants office.</div>
+  <div class="strategic-note">Contact the SVS Foundation grants office to confirm citizenship eligibility for F-1 visa holders before committing time to this application.</div>
 
   <div class="card-footer">
     <a href="https://vswfoundation.org/grants-and-awards/" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1199,7 +1337,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~December 2026 (application opens September 1, 2026) · 223d</span>
+      <span class="meta-value" style="color:#18100a">December 2026 (application opens September 1, 2026) · 223d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -1207,7 +1345,7 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
-      <span class="meta-value">Up to 3 years (PhD) + optional 4 years postdoc at $80,000/yr</span>
+      <span class="meta-value">Up to 3 years PhD + optional 4 years postdoc at $80,000/yr</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Source</span>
@@ -1216,13 +1354,23 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Major new opportunity — HHMI expanded Gilliam eligibility to international students for 2026. You are currently in year 1; this is designed for years 2–3, so plan to apply in fall 2027 (2nd year cycle). Must verify MSU is on the HHMI eligible institution list (~270 qualifying institutions). Joint application with thesis advisor. Strong fit if you frame commitment to inclusion in science (your iCan Shine adaptive recreation work and intellectual disability research is directly relevant).</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>PhD student in 2nd or 3rd year at an HHMI-eligible institution - verify MSU at hhmi.org/programs/eligible-institutions</li>
+<li>PhD program must be in biological or biomedical sciences</li>
+<li>Application submitted jointly by the student AND thesis advisor</li>
+<li>Demonstrated commitment to advancing inclusion and diversity in science - a core evaluation criterion</li>
+<li>At least 2 full years of doctoral study remaining at award activation</li>
+<li>International students eligible as of the 2026 competition cycle</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">HHMI Gilliam funds biomedical doctoral students committed to both rigorous research and inclusion in science. Research on cardiovascular health, vascular function, and metabolic disease, particularly in adults with intellectual disabilities, a historically underserved population in biomedical research, falls within HHMI biomedical scope and speaks directly to the inclusion dimension of the Gilliam evaluation. Plan to apply in your 2nd year after verifying MSU institutional eligibility.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">As of the 2026 competition (opens September 1, 2026): international PhD students at eligible US institutions are NOW explicitly eligible. This is a NEW expansion — previously restricted to US citizens, PRs, and DACA recipients only. <span class="cite">— HHMI Gilliam Fellows Program official page: 'Starting with the 2026 competition — international PhD students are eligible to apply'</span></p>
+    <p class="field-text">International PhD students are NOW eligible as of the 2026 competition. Previously restricted to US citizens, PRs, and DACA recipients only. <span class="cite">— HHMI Gilliam Fellows Program page: 'Starting with the 2026 competition - international PhD students are eligible'</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">accelerometer</span></div></div>
@@ -1230,10 +1378,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">2nd or 3rd year PhD student at eligible HHMI institution — VERIFY MSU at hhmi.org/programs/eligible-institutions</span><span class="tag">PhD in biological or biomedical sciences</span><span class="tag">Joint application submitted with thesis advisor</span><span class="tag">Demonstrated commitment to advancing inclusion in science</span><span class="tag">At least 2 full years of doctoral study remaining at fellowship start</span></div>
+    <div class="tag-row"><span class="tag">2nd or 3rd year PhD student at HHMI-eligible institution</span><span class="tag">Verify MSU eligibility at hhmi.org/programs/eligible-institutions</span><span class="tag">Joint application with thesis advisor</span><span class="tag">Statement on commitment to inclusion in science</span><span class="tag">PhD in biological or biomedical sciences</span></div>
   </div>
 
-  <div class="strategic-note">CHECK MSU ELIGIBILITY NOW at hhmi.org/programs/eligible-institutions. If MSU is not listed, ask your department chair to contact HHMI about institutional eligibility. Apply in your 2nd year (fall 2027 competition).</div>
+  <div class="strategic-note">Verify MSU eligibility at hhmi.org now. Apply in your 2nd year (fall 2027 cycle). Your intellectual disability population work is a strong inclusion narrative.</div>
 
   <div class="card-footer">
     <a href="https://www.hhmi.org/programs/gilliam-fellows" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1255,7 +1403,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~January 2027 (check physiology.org for 2027 cycle) · 254d</span>
+      <span class="meta-value" style="color:#18100a">January 2027 (check physiology.org for 2027 cycle) · 254d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -1272,13 +1420,22 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">APS covers cardiovascular and exercise physiology broadly. Your VO2max, FMD, PWV, and endothelial function research fits well. This fellowship targets underrepresented groups — as an international student from India, confirm how APS defines underrepresentation for international applicants.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>PhD student in a physiology or physiology-related field</li>
+<li>Must demonstrate underrepresentation in physiology - confirm how international students are classified with APS</li>
+<li>Research proposal with a physiology focus</li>
+<li>Mentor letter of support</li>
+<li>Contact APS at careers@physiology.org to confirm international student eligibility before applying</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">APS Porter Fellowship supports doctoral training in physiology including cardiovascular and exercise physiology. Research on vascular function (endothelial function, arterial stiffness, central hemodynamics) and cardiorespiratory fitness in middle-aged and older adults with metabolic disease falls within cardiovascular and integrative physiology, two of APS core disciplines. Confirm whether international PhD students qualify under the underrepresentation criterion before committing time to the application.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">Targets underrepresented groups in physiology. No citizenship restriction stated — verify international student eligibility directly with APS before applying. <span class="cite">— APS Porter Fellowship page — underrepresented focus, citizenship not listed</span></p>
+    <p class="field-text">Targets underrepresented groups in physiology. No citizenship restriction stated. Verify international student eligibility directly with APS at careers@physiology.org. <span class="cite">— APS Porter Fellowship page - underrepresentation focus, citizenship not listed</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">accelerometer</span></div></div>
@@ -1286,10 +1443,10 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">PhD student in physiology-related field</span><span class="tag">Evidence of underrepresentation in physiology</span><span class="tag">Research proposal</span><span class="tag">Mentor letter</span><span class="tag">Contact APS to confirm international student eligibility</span></div>
+    <div class="tag-row"><span class="tag">PhD student in physiology or related field</span><span class="tag">Evidence of underrepresentation</span><span class="tag">Research proposal</span><span class="tag">Mentor letter</span><span class="tag">Contact APS to confirm international student eligibility first</span></div>
   </div>
 
-  <div class="strategic-note">Email APS (careers@physiology.org) and ask explicitly: 'Are international PhD students on F-1 visas eligible for the Porter Fellowship?' before investing time in the application.</div>
+  <div class="strategic-note">Email APS at careers@physiology.org and ask directly: Are international PhD students on F-1 visas eligible for the Porter Fellowship? Confirm before investing time.</div>
 
   <div class="card-footer">
     <a href="https://www.physiology.org/career-opportunities/students-trainees/awards-funding/porter-physiology-fellowship" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1300,7 +1457,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">Mississippi INBRE + Mississippi EPSCoR</div>
-      <h2 class="card-title">Mississippi IDeA/EPSCoR Conference (MIEC) — Student Poster Competition</h2>
+      <h2 class="card-title">Mississippi IDeA/EPSCoR Conference (MIEC) - Student Poster Competition</h2>
     </div>
     <div class="card-header-right">
       <span class="pill pill-blue">62% match</span>
@@ -1311,7 +1468,7 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#c0392b">Register now — MIEC26 (check msinbre.org/miec26 for dates) · 14d</span>
+      <span class="meta-value" style="color:#c0392b">Register now - MIEC26 (check msinbre.org/miec26) · 14d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
@@ -1328,13 +1485,21 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Strategic networking as much as a prize. INBRE leadership who control graduate student funding decisions attend this conference. Your 24-week RCT poster data (CAT vs SIT, vascular outcomes) is strong conference material. Being known by INBRE personnel directly increases access to INBRE graduate funding cycles.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Graduate student at MSU or a Mississippi INBRE/EPSCoR network institution</li>
+<li>Submit a poster abstract within biomedical, health science, or STEM scope</li>
+<li>Register and present in person at the conference</li>
+<li>Prize awarded by judging panel - no separate application beyond registration and abstract</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">MIEC is the primary statewide conference for Mississippi biomedical and STEM researchers. Presenting research on cardiovascular health, vascular outcomes, or exercise interventions in metabolic syndrome, older adult, or intellectual disability populations places your work within INBRE funded science areas. INBRE personnel who control graduate student funding cycles attend and judge this conference, so presenting here builds visibility that opens access to INBRE graduate support funding.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction. Open to all graduate students at Mississippi institutions. <span class="cite">— MIEC26 registration page — open to all STEM researchers</span></p>
+    <p class="field-text">No citizenship restriction. Open to all graduate students at Mississippi institutions. <span class="cite">— MIEC26 registration page - open to all STEM researchers</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">accelerometer</span></div></div>
@@ -1342,17 +1507,17 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Register at msinbre.org/miec26</span><span class="tag">Submit poster abstract (cardiovascular/metabolic/exercise theme)</span><span class="tag">Present at conference (judges may also select you as a reviewer)</span></div>
+    <div class="tag-row"><span class="tag">Register at msinbre.org/miec26</span><span class="tag">Submit poster abstract</span><span class="tag">Present at conference in person</span></div>
   </div>
 
-  <div class="strategic-note">Register immediately. Bring business cards. Introduce yourself to Dr. Alex Flynt (INBRE program director at USM) and explain your research — this directly opens doors to INBRE funding.</div>
+  <div class="strategic-note">Strategic value is primarily networking with INBRE leadership. Bring your research narrative and introduce yourself to INBRE program directors.</div>
 
   <div class="card-footer">
     <a href="https://msinbre.org/miec26/" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">ACTIVE</span>
   </div>
 </div>
-<div class="card" data-conf="61" data-citizenship="unrestricted" data-source="curated" data-status="future" data-urgency="normal" data-cats="cardiovascular women's health hormones metabolic vascular">
+<div class="card" data-conf="61" data-citizenship="unrestricted" data-source="curated" data-status="future" data-urgency="normal" data-cats="cardiovascular women's health metabolic vascular">
   <div class="card-header">
     <div class="card-header-left">
       <div class="org-label">Foundation for Women's Wellness</div>
@@ -1367,11 +1532,11 @@ details[open] summary::before { content: "−"; }
   <div class="card-meta">
     <div class="meta-item">
       <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#18100a">~February–April 2027 (2026 cycle: Feb 6–Apr 3 — CLOSED) · 332d</span>
+      <span class="meta-value" style="color:#18100a">February-April 2027 (2026 cycle closed) · 332d</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$5,000 (one-time, paid directly to awardee — taxable)</span>
+      <span class="meta-value">$5,000 (paid directly to awardee, taxable)</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
@@ -1384,24 +1549,34 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Cardiovascular disease is FWW's primary priority. Your vascular health outcomes (FMD, PWV, endothelial function) and metabolic syndrome/cardiometabolic populations fit. Strengthen the application by framing sex/gender differences in cardiovascular responses to exercise — e.g., different vascular adaptation profiles in women with metabolic syndrome.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Enrolled in a PhD program at a US-based academic institution at time of application</li>
+<li>Research must address FWW priority areas: cardiovascular disease, female cancers, hormones, or stage-of-life health</li>
+<li>Personal statement demonstrating commitment to women's health research</li>
+<li>Research statement describing current work, not proposed future work</li>
+<li>Supervisor feedback letter confirming enrollment and research</li>
+<li>CV with academic record</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">FWW funds research on cardiovascular health and hormonal or stage-of-life factors in women. Cardiovascular disease is strongly influenced by metabolic syndrome, obesity, and physical inactivity, all populations you study. Vascular measurements including FMD, PWV, and central blood pressure via SphygmoCor capture sex-specific cardiovascular risk markers. Including a sex-stratified or sex-difference analysis within your existing cohorts of middle-aged and older adults or metabolic disease populations would satisfy FWW focus.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction stated. Requires PhD enrollment at a US-based academic institution. Award paid directly to individual. <span class="cite">— FWW Fellowship Award page and Northeastern University fellowship listing — no citizenship requirement listed</span></p>
+    <p class="field-text">No citizenship restriction stated. Requires PhD enrollment at a US-based academic institution. <span class="cite">— FWW Fellowship Award page - no citizenship requirement listed</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">vascular ultrasound</span><span class="tag tag-eq">blood glucose</span><span class="tag tag-eq">cholesterol</span></div></div>
-  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">cardiovascular disease</span><span class="tag tag-pop">metabolic syndrome</span><span class="tag tag-pop">women</span></div></div>
+  <div class="card-field"><div class="field-label">Populations</div><div class="tag-row"><span class="tag tag-pop">older adults</span><span class="tag tag-pop">cardiovascular disease</span><span class="tag tag-pop">metabolic syndrome</span></div></div>
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">PhD student at a US-based academic institution</span><span class="tag">Research in FWW priorities: CVD, female cancers, hormones, stage-of-life health</span><span class="tag">Personal statement demonstrating passion for women's health</span><span class="tag">CV and supervisor feedback letter</span><span class="tag">Research statement (current work, not proposed)</span></div>
+    <div class="tag-row"><span class="tag">PhD student at a US-based institution</span><span class="tag">Research in FWW priorities: CVD, hormones, or stage-of-life health</span><span class="tag">Personal statement on women's health commitment</span><span class="tag">Research statement (current work only)</span><span class="tag">Supervisor feedback letter and CV</span></div>
   </div>
 
-  <div class="strategic-note">2026 cycle closed. Apply February 2027. Add a sex/gender differences angle to your vascular research proposal now — even a secondary analysis of sex differences in PWV or FMD response strengthens this application significantly.</div>
+  <div class="strategic-note">2026 cycle closed. Apply February 2027. Adding a sex/gender differences angle to your vascular data strengthens this application significantly.</div>
 
   <div class="card-footer">
     <a href="https://thefww.org/fellowship-awards/" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
@@ -1427,7 +1602,7 @@ details[open] summary::before { content: "−"; }
     </div>
     <div class="meta-item">
       <span class="meta-label">Amount</span>
-      <span class="meta-value">$10,000–$15,000</span>
+      <span class="meta-value">$10,000-$15,000</span>
     </div>
     <div class="meta-item">
       <span class="meta-label">Duration</span>
@@ -1440,13 +1615,23 @@ details[open] summary::before { content: "−"; }
   </div>
 
   <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">Previously applied (2026 cycle complete). Update application with new accomplishments: poster at College of Education Research Symposium (April 2026), Evaluator role at MSU Undergraduate Research Symposium, MSU Football internship (Feb 2026–present). Reuse and refine 2026 package.</p>
+    <div class="field-label">What they expect from the applicant</div>
+    <ul class="expect-list"><li>Graduate student status with minimum GPA - verify current threshold at akaeaf.org</li>
+<li>Documented community service described in the application</li>
+<li>Personal statement addressing academic goals and community commitment</li>
+<li>Two or three letters of recommendation from academic or professional contacts</li>
+<li>Financial need documentation</li>
+<li>Application window: approximately October to January annually</li></ul>
+  </div>
+
+  <div class="card-field">
+    <div class="field-label">How you fit</div>
+    <p class="field-text">AKA EAF funds graduate students in health sciences and STEM with a community engagement component. Research focused on improving health outcomes in populations with intellectual disabilities, metabolic disease, and non-communicable disease demonstrates both scientific rigor and community health relevance. Engagement in adaptive recreation and exercise programming for populations with disabilities satisfies the community engagement criterion AKA EAF weighs in evaluation.</p>
   </div>
 
   <div class="card-field">
     <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">No citizenship restriction. International students may apply. Community service component required. <span class="cite">— AKA EAF fellowship guidelines — no citizenship requirement</span></p>
+    <p class="field-text">No citizenship restriction. International students may apply. <span class="cite">— AKA EAF fellowship guidelines - no citizenship requirement</span></p>
   </div>
 
   <div class="card-field"><div class="field-label">Equipment match</div><div class="tag-row"><span class="tag tag-eq">metabolic cart</span><span class="tag tag-eq">SphygmoCor</span><span class="tag tag-eq">accelerometer</span></div></div>
@@ -1454,294 +1639,14 @@ details[open] summary::before { content: "−"; }
 
   <div class="card-field">
     <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Graduate student status with strong GPA</span><span class="tag">Community service documentation (iCan Shine adaptive recreation, MSU Football internship)</span><span class="tag">Personal statement (update from 2026 with new CV items)</span><span class="tag">Letters of recommendation</span><span class="tag">Financial need documentation</span></div>
+    <div class="tag-row"><span class="tag">Graduate student status with minimum GPA</span><span class="tag">Documented community service</span><span class="tag">Personal statement</span><span class="tag">Two to three recommendation letters</span><span class="tag">Financial need documentation</span></div>
   </div>
 
-  <div class="strategic-note">You already have the 2026 application as a template. Update with: new poster, evaluator role, Football internship. 30-minute refresh of existing materials.</div>
+  <div class="strategic-note">Update your 2026 application with new CV items before resubmitting: poster at College of Education Research Symposium (April 2026), Evaluator role at MSU Undergraduate Research Symposium, MSU Football internship.</div>
 
   <div class="card-footer">
     <a href="https://akaeaf.org/fellowships" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
     <span class="status-label">FUTURE</span>
-  </div>
-</div>
-<div class="card" data-conf="23" data-citizenship="check" data-source="nih_reporter" data-status="active" data-urgency="future" data-cats="federal biomedical NIH">
-  <div class="card-header">
-    <div class="card-header-left">
-      <div class="org-label">NIH — National Institute on Aging</div>
-      <h2 class="card-title">Lysosome-Golgi Contact Sites as Regulators of Senescence-Associated Inflammation</h2>
-    </div>
-    <div class="card-header-right">
-      <span class="pill pill-gray">23% match</span>
-      <span class="pill pill-amber">Verify citizenship</span>
-    </div>
-  </div>
-
-  <div class="card-meta">
-    <div class="meta-item">
-      <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#888">See grants.nih.gov for active FOA deadline</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Duration</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Source</span>
-      <span class="meta-value">NIH Reporter</span>
-    </div>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">NIH Reporter live match. Project: 'Lysosome-Golgi Contact Sites as Regulators of Senescence-Associated Inflammation'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.</p>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level — no citizenship restriction for the supported graduate student. Confirm per activity code. <span class="cite">— NIH Reporter live result — check specific FOA</span></p>
-  </div>
-
-  
-  
-
-  <div class="card-field">
-    <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Verify citizenship requirement for this activity code</span><span class="tag">Discuss with your advisor — most NIH mechanisms are PI-level</span><span class="tag">Check active FOA at grants.nih.gov</span></div>
-  </div>
-
-  <div class="strategic-note">NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.</div>
-
-  <div class="card-footer">
-    <a href="https://reporter.nih.gov/project-details/1R21AG100775-01" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
-    <span class="status-label">ACTIVE</span>
-  </div>
-</div>
-<div class="card" data-conf="18" data-citizenship="check" data-source="nih_reporter" data-status="active" data-urgency="future" data-cats="federal biomedical NIH">
-  <div class="card-header">
-    <div class="card-header-left">
-      <div class="org-label">NIH — National Cancer Institute</div>
-      <h2 class="card-title">A pilot adaptive trial of FITtrack chatbot, nurse navigator, and peer navigator to promote FIT screening among rural residents.</h2>
-    </div>
-    <div class="card-header-right">
-      <span class="pill pill-gray">18% match</span>
-      <span class="pill pill-amber">Verify citizenship</span>
-    </div>
-  </div>
-
-  <div class="card-meta">
-    <div class="meta-item">
-      <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#888">See grants.nih.gov for active FOA deadline</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Duration</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Source</span>
-      <span class="meta-value">NIH Reporter</span>
-    </div>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">NIH Reporter live match. Project: 'A pilot adaptive trial of FITtrack chatbot, nurse navigator, and peer navigator to promote FIT screening among rural residents.'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.</p>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level — no citizenship restriction for the supported graduate student. Confirm per activity code. <span class="cite">— NIH Reporter live result — check specific FOA</span></p>
-  </div>
-
-  
-  
-
-  <div class="card-field">
-    <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Verify citizenship requirement for this activity code</span><span class="tag">Discuss with your advisor — most NIH mechanisms are PI-level</span><span class="tag">Check active FOA at grants.nih.gov</span></div>
-  </div>
-
-  <div class="strategic-note">NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.</div>
-
-  <div class="card-footer">
-    <a href="https://reporter.nih.gov/project-details/1R21CA309305-01" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
-    <span class="status-label">ACTIVE</span>
-  </div>
-</div>
-<div class="card" data-conf="18" data-citizenship="check" data-source="nih_reporter" data-status="active" data-urgency="future" data-cats="federal biomedical NIH">
-  <div class="card-header">
-    <div class="card-header-left">
-      <div class="org-label">NIH — National Institute of General Medical Sciences</div>
-      <h2 class="card-title">Comparative Study on Human Beta Defensin Type 2 and 3 Interaction with Model Bacterial Lipid Membranes</h2>
-    </div>
-    <div class="card-header-right">
-      <span class="pill pill-gray">18% match</span>
-      <span class="pill pill-amber">Verify citizenship</span>
-    </div>
-  </div>
-
-  <div class="card-meta">
-    <div class="meta-item">
-      <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#888">See grants.nih.gov for active FOA deadline</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Duration</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Source</span>
-      <span class="meta-value">NIH Reporter</span>
-    </div>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">NIH Reporter live match. Project: 'Comparative Study on Human Beta Defensin Type 2 and 3 Interaction with Model Bacterial Lipid Membranes'. Activity code: R15. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.</p>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level — no citizenship restriction for the supported graduate student. Confirm per activity code. <span class="cite">— NIH Reporter live result — check specific FOA</span></p>
-  </div>
-
-  
-  
-
-  <div class="card-field">
-    <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Verify citizenship requirement for this activity code</span><span class="tag">Discuss with your advisor — most NIH mechanisms are PI-level</span><span class="tag">Check active FOA at grants.nih.gov</span></div>
-  </div>
-
-  <div class="strategic-note">NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.</div>
-
-  <div class="card-footer">
-    <a href="https://reporter.nih.gov/project-details/1R15GM163254-01" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
-    <span class="status-label">ACTIVE</span>
-  </div>
-</div>
-<div class="card" data-conf="18" data-citizenship="check" data-source="nih_reporter" data-status="active" data-urgency="future" data-cats="federal biomedical NIH">
-  <div class="card-header">
-    <div class="card-header-left">
-      <div class="org-label">NIH — National Institute of Mental Health</div>
-      <h2 class="card-title">Mitochondrial Signaling, Stress, and Sleep in Children with Internalizing Disorders</h2>
-    </div>
-    <div class="card-header-right">
-      <span class="pill pill-gray">18% match</span>
-      <span class="pill pill-amber">Verify citizenship</span>
-    </div>
-  </div>
-
-  <div class="card-meta">
-    <div class="meta-item">
-      <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#888">See grants.nih.gov for active FOA deadline</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Duration</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Source</span>
-      <span class="meta-value">NIH Reporter</span>
-    </div>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">NIH Reporter live match. Project: 'Mitochondrial Signaling, Stress, and Sleep in Children with Internalizing Disorders'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.</p>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level — no citizenship restriction for the supported graduate student. Confirm per activity code. <span class="cite">— NIH Reporter live result — check specific FOA</span></p>
-  </div>
-
-  
-  
-
-  <div class="card-field">
-    <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Verify citizenship requirement for this activity code</span><span class="tag">Discuss with your advisor — most NIH mechanisms are PI-level</span><span class="tag">Check active FOA at grants.nih.gov</span></div>
-  </div>
-
-  <div class="strategic-note">NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.</div>
-
-  <div class="card-footer">
-    <a href="https://reporter.nih.gov/project-details/1R21MH140170-01A1" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
-    <span class="status-label">ACTIVE</span>
-  </div>
-</div>
-<div class="card" data-conf="18" data-citizenship="check" data-source="nih_reporter" data-status="active" data-urgency="future" data-cats="federal biomedical NIH">
-  <div class="card-header">
-    <div class="card-header-left">
-      <div class="org-label">NIH — National Institute of Allergy and Infectious Diseases</div>
-      <h2 class="card-title">Malaria importation and the role of agriculture in local transmission in Eswatini (MIRA)</h2>
-    </div>
-    <div class="card-header-right">
-      <span class="pill pill-gray">18% match</span>
-      <span class="pill pill-amber">Verify citizenship</span>
-    </div>
-  </div>
-
-  <div class="card-meta">
-    <div class="meta-item">
-      <span class="meta-label">Deadline</span>
-      <span class="meta-value" style="color:#888">See grants.nih.gov for active FOA deadline</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Amount</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Duration</span>
-      <span class="meta-value">Varies by mechanism</span>
-    </div>
-    <div class="meta-item">
-      <span class="meta-label">Source</span>
-      <span class="meta-value">NIH Reporter</span>
-    </div>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Why this fits</div>
-    <p class="field-text">NIH Reporter live match. Project: 'Malaria importation and the role of agriculture in local transmission in Eswatini (MIRA)'. Activity code: R21. Matched query cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with Dr. Oviedo / Dr. Agiovlasitis about supporting you as graduate student.</p>
-  </div>
-
-  <div class="card-field">
-    <div class="field-label">Citizenship / visa</div>
-    <p class="field-text">VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level — no citizenship restriction for the supported graduate student. Confirm per activity code. <span class="cite">— NIH Reporter live result — check specific FOA</span></p>
-  </div>
-
-  
-  
-
-  <div class="card-field">
-    <div class="field-label">Requirements</div>
-    <div class="tag-row"><span class="tag">Verify citizenship requirement for this activity code</span><span class="tag">Discuss with your advisor — most NIH mechanisms are PI-level</span><span class="tag">Check active FOA at grants.nih.gov</span></div>
-  </div>
-
-  <div class="strategic-note">NIH Reporter live data. Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.</div>
-
-  <div class="card-footer">
-    <a href="https://reporter.nih.gov/project-details/1R21AI190485-01A1" target="_blank" rel="noopener" class="apply-link">View grant &rarr;</a>
-    <span class="status-label">ACTIVE</span>
   </div>
 </div>
 </div>
