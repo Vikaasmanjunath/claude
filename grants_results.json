@@ -1,9 +1,9 @@
 {
-  "generated": "August 03, 2026 at 11:34 AM UTC",
-  "search_date": "2026-08-03",
-  "total": 27,
+  "generated": "August 10, 2026 at 09:39 AM UTC",
+  "search_date": "2026-08-10",
+  "total": 22,
   "unrestricted_count": 14,
-  "unspecified_count": 13,
+  "unspecified_count": 8,
   "high_confidence": 11,
   "nih_query_clusters": [
     "cardiovascular exercise physical activity vascular",
@@ -158,7 +158,7 @@
       "strategic_note": "Lead the proposal with your vascular outcomes in this population (PWV, FMD). The cardiovascular-intellectual disability intersection must be the primary aim, not a secondary note.",
       "source": "curated",
       "confidence": 92,
-      "days_until_deadline": 31,
+      "days_until_deadline": 24,
       "deadline_urgency": "urgent"
     },
     {
@@ -223,7 +223,7 @@
       "strategic_note": "Apply to BOTH the standard track AND the Autism Speaks co-funded track simultaneously. Same portal, same deadline, separate review panel. AHA prohibits AI-generated content in proposals.",
       "source": "curated",
       "confidence": 88,
-      "days_until_deadline": 31,
+      "days_until_deadline": 24,
       "deadline_urgency": "urgent"
     },
     {
@@ -284,7 +284,7 @@
       "strategic_note": "Also apply to the Gisolfi Memorial Fund (same portal, same deadline). Two applications, two chances, 30 minutes extra effort.",
       "source": "curated",
       "confidence": 85,
-      "days_until_deadline": 119,
+      "days_until_deadline": 112,
       "deadline_urgency": "normal"
     },
     {
@@ -344,7 +344,7 @@
       "strategic_note": "Ask Dr. Oviedo and Dr. Agiovlasitis this week if they hold an active NIH grant. If yes, this is your most immediate funding path as an international student.",
       "source": "curated",
       "confidence": 83,
-      "days_until_deadline": 12,
+      "days_until_deadline": 5,
       "deadline_urgency": "urgent"
     },
     {
@@ -402,7 +402,7 @@
       "strategic_note": "Register and present at MIEC 2026 (msinbre.org/miec26) - INBRE leadership who control funding attend this conference.",
       "source": "curated",
       "confidence": 79,
-      "days_until_deadline": 29,
+      "days_until_deadline": 22,
       "deadline_urgency": "urgent"
     },
     {
@@ -457,7 +457,7 @@
       "strategic_note": "Small award but strong CV value. Confirm citizenship policy with ASEP before applying.",
       "source": "curated",
       "confidence": 77,
-      "days_until_deadline": 29,
+      "days_until_deadline": 22,
       "deadline_urgency": "urgent"
     },
     {
@@ -510,7 +510,7 @@
       "strategic_note": "Same portal and window as the ACSM Doctoral Grant. Adapting the proposal framing adds minimal effort for a second chance at funding.",
       "source": "curated",
       "confidence": 76,
-      "days_until_deadline": 119,
+      "days_until_deadline": 112,
       "deadline_urgency": "normal"
     },
     {
@@ -567,7 +567,7 @@
       "strategic_note": "Frame your work around vascular aging mechanisms and how exercise interventions slow age-related cardiovascular decline. Set a January 15, 2027 calendar alert.",
       "source": "curated",
       "confidence": 74,
-      "days_until_deadline": 223,
+      "days_until_deadline": 216,
       "deadline_urgency": "normal"
     },
     {
@@ -624,7 +624,7 @@
       "strategic_note": "Apply to fall round now. Join MSU Sigma Xi chapter simultaneously to unlock $5,000 cap for the March 2027 spring round.",
       "source": "curated",
       "confidence": 72,
-      "days_until_deadline": 59,
+      "days_until_deadline": 52,
       "deadline_urgency": "soon"
     },
     {
@@ -678,7 +678,7 @@
       "strategic_note": "Join MSU Sigma Xi chapter in fall 2026 so you hold membership by March 15, 2027 - raises cap from $1,000 to $5,000.",
       "source": "curated",
       "confidence": 72,
-      "days_until_deadline": 224,
+      "days_until_deadline": 217,
       "deadline_urgency": "normal"
     },
     {
@@ -736,7 +736,7 @@
       "strategic_note": "Confirm citizenship eligibility and exact 2026 deadline at diabeteseducator.org before applying.",
       "source": "curated",
       "confidence": 71,
-      "days_until_deadline": -2,
+      "days_until_deadline": -9,
       "deadline_urgency": "expired"
     },
     {
@@ -792,7 +792,7 @@
       "strategic_note": "Contact the SVS Foundation grants office to confirm citizenship eligibility for F-1 visa holders before committing time to this application.",
       "source": "curated",
       "confidence": 69,
-      "days_until_deadline": 73,
+      "days_until_deadline": 66,
       "deadline_urgency": "soon"
     },
     {
@@ -850,7 +850,7 @@
       "strategic_note": "Verify MSU eligibility at hhmi.org now. Apply in your 2nd year (fall 2027 cycle). Your intellectual disability population work is a strong inclusion narrative.",
       "source": "curated",
       "confidence": 68,
-      "days_until_deadline": 134,
+      "days_until_deadline": 127,
       "deadline_urgency": "normal"
     },
     {
@@ -906,7 +906,7 @@
       "strategic_note": "Email APS at careers@physiology.org and ask directly: Are international PhD students on F-1 visas eligible for the Porter Fellowship? Confirm before investing time.",
       "source": "curated",
       "confidence": 65,
-      "days_until_deadline": 165,
+      "days_until_deadline": 158,
       "deadline_urgency": "normal"
     },
     {
@@ -959,7 +959,7 @@
       "strategic_note": "Strategic value is primarily networking with INBRE leadership. Bring your research narrative and introduce yourself to INBRE program directors.",
       "source": "curated",
       "confidence": 62,
-      "days_until_deadline": -75,
+      "days_until_deadline": -82,
       "deadline_urgency": "expired"
     },
     {
@@ -1016,7 +1016,7 @@
       "strategic_note": "2026 cycle closed. Apply February 2027. Adding a sex/gender differences angle to your vascular data strengthens this application significantly.",
       "source": "curated",
       "confidence": 61,
-      "days_until_deadline": 243,
+      "days_until_deadline": 236,
       "deadline_urgency": "normal"
     },
     {
@@ -1072,349 +1072,13 @@
       "strategic_note": "Update your 2026 application with new CV items before resubmitting: poster at College of Education Research Symposium (April 2026), Evaluator role at MSU Undergraduate Research Symposium, MSU Football internship.",
       "source": "curated",
       "confidence": 58,
-      "days_until_deadline": 165,
+      "days_until_deadline": 158,
       "deadline_urgency": "normal"
     },
     {
-      "id": "NIH-1R21DE036066-01",
-      "title": "AHEAD: Adolescent Health and the EArly-life Dietary Exposome: Developing a Metabolomics-based Index of Healthy Eating to predict children's health trajectories",
-      "org": "NIH - National Institute of Dental and Craniofacial Research",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21DE036066-01",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 42,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1R21HD119634-01A1",
-      "title": "Developmental reprogramming by gene environment interactions",
-      "org": "NIH - Eunice Kennedy Shriver National Institute of Child Health and Human Development",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'aging older adults cardiovascular fitness cardiorespiratory'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21HD119634-01A1",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 42,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1R21AI202446-01",
-      "title": "Characterizing the impact of Hlb expression on the ability of MRSA to evade human PMN responses",
-      "org": "NIH - National Institute of Allergy and Infectious Diseases",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'aging older adults cardiovascular fitness cardiorespiratory'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21AI202446-01",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 37,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1R21EB038495-01",
-      "title": "Engineered tissues to identify cellular crosstalk required for early tumor development",
-      "org": "NIH - National Institute of Biomedical Imaging and Bioengineering",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'aging older adults cardiovascular fitness cardiorespiratory'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21EB038495-01",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 37,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1R21CA299372-01A1",
-      "title": "Improving NK cell engineering to target AML",
-      "org": "NIH - National Cancer Institute",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'aging older adults cardiovascular fitness cardiorespiratory'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21CA299372-01A1",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 37,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1F31AI200351-01",
-      "title": "Contribution of Group B Streptococcal adhesin BspC to neonatal intestinal colonization and interactions with Candida albicans",
-      "org": "NIH - National Institute of Allergy and Infectious Diseases",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: F31. Matched cluster: 'aging older adults cardiovascular fitness cardiorespiratory'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1F31AI200351-01",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 37,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1R21HL177731-01A1",
-      "title": "Familial hypercholesterolemia: missed opportunities and potential disparities in atherosclerotic cardiovascular disease prevention",
-      "org": "NIH - National Heart Lung and Blood Institute",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/1R21HL177731-01A1",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 27,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-2R15MH127534-02",
-      "title": "Differentiating fear generalization and extinction neuronal ensembles in prefrontal cortex",
-      "org": "NIH - National Institute of Mental Health",
-      "org_type": "Federal",
-      "category": [
-        "federal",
-        "biomedical",
-        "NIH"
-      ],
-      "citizenship": "check",
-      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
-      "citizenship_source": "NIH Reporter live result - check specific FOA",
-      "amount_display": "Varies",
-      "amount_min": 0,
-      "amount_max": 0,
-      "duration": "Varies",
-      "deadline": "",
-      "deadline_display": "See grants.nih.gov",
-      "application_open": "",
-      "status": "active",
-      "populations": [],
-      "equipment_relevance": [],
-      "fit_rationale": "NIH Reporter live match. Activity code: R15. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
-      "what_they_expect": [
-        "Verify citizenship requirement for this activity code",
-        "Discuss with your advisor - most NIH mechanisms are PI-level",
-        "Check active FOA at grants.nih.gov"
-      ],
-      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
-      "requirements": [
-        "Verify citizenship per activity code",
-        "Check full FOA at grants.nih.gov",
-        "Discuss PI-level mechanisms with your advisors"
-      ],
-      "url": "https://reporter.nih.gov/project-details/2R15MH127534-02",
-      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
-      "source": "nih_reporter",
-      "confidence": 18,
-      "days_until_deadline": 9999,
-      "deadline_urgency": "future"
-    },
-    {
-      "id": "NIH-1F31AR087287-01",
-      "title": "Exploring embryonic exposure to hypoxia as a priming cue for postnatal epidermal insult",
-      "org": "NIH - National Institute of Arthritis and Musculoskeletal and Skin Diseases",
+      "id": "NIH-1F31DC023137-01A1",
+      "title": "From scent to sustenance:  Investigating the connection between the olfactory bulb and hypothalamic function",
+      "org": "NIH - National Institute on Deafness and Other Communication Disorders",
       "org_type": "Federal",
       "category": [
         "federal",
@@ -1446,17 +1110,59 @@
         "Check full FOA at grants.nih.gov",
         "Discuss PI-level mechanisms with your advisors"
       ],
-      "url": "https://reporter.nih.gov/project-details/1F31AR087287-01",
+      "url": "https://reporter.nih.gov/project-details/1F31DC023137-01A1",
       "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
       "source": "nih_reporter",
-      "confidence": 18,
+      "confidence": 23,
       "days_until_deadline": 9999,
       "deadline_urgency": "future"
     },
     {
-      "id": "NIH-1R21EB039194-01",
-      "title": "Programmable Ultrasound-Leveraged Site-specific Exosomes",
-      "org": "NIH - National Institute of Biomedical Imaging and Bioengineering",
+      "id": "NIH-1R15GM164975-01",
+      "title": "Uncovering Non-canonical Roles of Phosphagen Systems in Stress Resilience Using C. elegans",
+      "org": "NIH - National Institute of General Medical Sciences",
+      "org_type": "Federal",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
+      "citizenship_source": "NIH Reporter live result - check specific FOA",
+      "amount_display": "Varies",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Activity code: R15. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
+      "what_they_expect": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor - most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
+      "requirements": [
+        "Verify citizenship per activity code",
+        "Check full FOA at grants.nih.gov",
+        "Discuss PI-level mechanisms with your advisors"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R15GM164975-01",
+      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 23,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R21AI202288-01",
+      "title": "Fate-Mapping and Genetic Dissection of B-to-T Feedback Circuits Shaping Germinal-Center Selection",
+      "org": "NIH - National Institute of Allergy and Infectious Diseases",
       "org_type": "Federal",
       "category": [
         "federal",
@@ -1488,7 +1194,91 @@
         "Check full FOA at grants.nih.gov",
         "Discuss PI-level mechanisms with your advisors"
       ],
-      "url": "https://reporter.nih.gov/project-details/1R21EB039194-01",
+      "url": "https://reporter.nih.gov/project-details/1R21AI202288-01",
+      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 23,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1F31MH143657-01",
+      "title": "Improving predictive machine learning for retention in HIV care via synthetic data augmentation",
+      "org": "NIH - National Institute of Mental Health",
+      "org_type": "Federal",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
+      "citizenship_source": "NIH Reporter live result - check specific FOA",
+      "amount_display": "Varies",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Activity code: F31. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
+      "what_they_expect": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor - most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
+      "requirements": [
+        "Verify citizenship per activity code",
+        "Check full FOA at grants.nih.gov",
+        "Discuss PI-level mechanisms with your advisors"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1F31MH143657-01",
+      "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
+      "source": "nih_reporter",
+      "confidence": 18,
+      "days_until_deadline": 9999,
+      "deadline_urgency": "future"
+    },
+    {
+      "id": "NIH-1R21AI202433-01",
+      "title": "Novel In-Clinic Molecular Adjuvant Enhances Antiviral Humoral Immunity of Vaccines Across Sexes",
+      "org": "NIH - National Institute of Allergy and Infectious Diseases",
+      "org_type": "Federal",
+      "category": [
+        "federal",
+        "biomedical",
+        "NIH"
+      ],
+      "citizenship": "check",
+      "citizenship_note": "VERIFY: F31/F99/T32 require US citizenship or PR. R15/R21 are PI-level - no citizenship restriction for the supported graduate student.",
+      "citizenship_source": "NIH Reporter live result - check specific FOA",
+      "amount_display": "Varies",
+      "amount_min": 0,
+      "amount_max": 0,
+      "duration": "Varies",
+      "deadline": "",
+      "deadline_display": "See grants.nih.gov",
+      "application_open": "",
+      "status": "active",
+      "populations": [],
+      "equipment_relevance": [],
+      "fit_rationale": "NIH Reporter live match. Activity code: R21. Matched cluster: 'cardiovascular exercise physical activity vascular'. If R15/R21: discuss with your advisors about supporting you as the graduate student.",
+      "what_they_expect": [
+        "Verify citizenship requirement for this activity code",
+        "Discuss with your advisor - most NIH mechanisms are PI-level",
+        "Check active FOA at grants.nih.gov"
+      ],
+      "how_you_fit": "NIH Reporter live result. If this is an R15 or R21, your advisors can apply as PI and support you as the graduate researcher working on cardiovascular, vascular, and metabolic disease outcomes.",
+      "requirements": [
+        "Verify citizenship per activity code",
+        "Check full FOA at grants.nih.gov",
+        "Discuss PI-level mechanisms with your advisors"
+      ],
+      "url": "https://reporter.nih.gov/project-details/1R21AI202433-01",
       "strategic_note": "Verify citizenship per activity code. R15/R21 are PI-level and can support international graduate students.",
       "source": "nih_reporter",
       "confidence": 18,
